@@ -4,9 +4,23 @@
 #include <ctype.h>
 #include "processing.h"
 
-char* process_input()
+char* process_input(char* string)
 {
-   return NULL;
+    chatlog(string);
+    char* processed_input = (char*) malloc(200 * sizeof(char));
+    int j = 0;
+    scanf(" %[^\n]%*c", string);
+    for(int i = 0; i < strlen(string); i++)
+    {
+        string[i] = tolower(string[i]);
+        if(isdigit(string[i]) || isalpha(string[i]) || string[i] == ' ')
+        {
+            processed_input[j] = string[i];
+            j++;
+        }
+    }
+    processed_input[j] = '\0';
+    return processed_input;
 }
 
 int search_for_department(char* string)
@@ -37,4 +51,17 @@ int search_for_time(char* string, char* time)
 int search_for_keyword(char* string, char* keyword)
 {
     return 0;
+}
+
+int chatlog(char* string)
+{
+    FILE* chatlog;
+    chatlog = fopen("chatlog.txt", "a");
+    if(!chatlog)
+    {
+        printf("Cannot open file!");
+        return 1;
+    }
+    fprintf(chatlog, "%s", string);
+    fclose(chatlog);
 }

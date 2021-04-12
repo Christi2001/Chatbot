@@ -6,7 +6,7 @@
 /**
  * Print some introductory sentences.
  */
-void say_introduction();
+char* say_introduction();
 
 /**
  * Print a greeting with the user's name.
