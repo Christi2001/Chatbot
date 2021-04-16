@@ -6,20 +6,14 @@
 #define NUM_WORKDAYS_IN_SCHEDULE_PER_WEEK 3
 #define MAX_NUM_APP 1000
 
-char weekday[7][4] = {"Sun\0", "Mon\0", "Tue\0", "Wed\0", "Thu\0", "Fri\0", "Sat\0"};
-char hours[24][6] = {"08:00\0", "08:30\0", "09:00\0", "09:30\0", "10:00\0", "10:30\0",
-                    "11:00\0", "11:30\0", "12:00\0", "12:30\0", "13:00\0", "13:30\0",
-                    "14:00\0", "14:30\0", "15:00\0", "15:30\0", "16:00\0", "16:30\0",
-                    "17:00\0", "17:30\0", "18:00\0", "18:30\0", "19:00\0", "19:30\0"};
-
 typedef struct{
-    char weekday[4];
+    char* weekday;
     // 8 am to 8 pm divided in 15 minute appointments (12h/30m = 24)
     // Each 30min piece has the value:
     // -> 0 if it is outside the doctor's office hours
     // -> 1 if it is in the doctor's schedule
     // -> 2 if it has an appointment
-    char session[24];
+    char* session;
 }Schedule;
 
 typedef struct{
@@ -65,6 +59,17 @@ int Current_num_appointments;
  */
 char* current_day();
 
+long int string_to_sec(char* str);
+
+/**
+ * Takes a string representing a date in the format "dd.mm.yyyy" 
+ * and turns it into a struct tm.
+ * 
+ * @param date The date string
+ * @return struct tm structure containing all parameters
+ */
+struct tm string_to_tm(char* date);
+
 /**
  * Takes a date, time and a doctor name and checks the 
  * appointment and department arrays to see if the session is free or not.
@@ -75,7 +80,7 @@ char* current_day();
  * @return 0 if the appointment session is free, 1 if it is not 
  * and -1 if it is not within the doctor's schedule
  */
-int check_availability(char* date, char* weekday, char* time, char* doc_name);
+int check_availability(char* date, char* time, char* doc_name);
 
 /**
  * Takes data from an appointment struct and saves it in "appointments.txt" and "doctors.txt". 

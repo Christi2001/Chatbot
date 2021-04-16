@@ -8,6 +8,6 @@ set(CMAKE_C_FLAGS "-std=c99 -fdump-rtl-expand")
 
 include_directories(unity/include)
 
-add_executable(chatbot main.c processing.c appointments.c)
+add_executable(chatbot main.c processing.c appointments.c replies.c)
 
-add_executable(unit_tests unit_tests.c processing.c appointments.c main.c unity/src/unity.c)
+add_executable(unit_tests unit_tests.c processing.c appointments.c replies.c unity/src/unity.c)

@@ -1,15 +1,26 @@
+#define _XOPEN_SOURCE
+// #define __USE_XOPEN
+// #define _GNU_SOURCE
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
 #include "appointments.h"
 
+
+char Weekday[7][4] = {"Sun\0", "Mon\0", "Tue\0", "Wed\0", "Thu\0", "Fri\0", "Sat\0"};
+char hours[24][6] = {"08:00\0", "08:30\0", "09:00\0", "09:30\0", "10:00\0", "10:30\0",
+                    "11:00\0", "11:30\0", "12:00\0", "12:30\0", "13:00\0", "13:30\0",
+                    "14:00\0", "14:30\0", "15:00\0", "15:30\0", "16:00\0", "16:30\0",
+                    "17:00\0", "17:30\0", "18:00\0", "18:30\0", "19:00\0", "19:30\0"};
+
+
 char* current_day()
 {
     time_t t = time(NULL);
     struct tm tm = *localtime(&t);
-    printf("now: %s %02d-%02d-%d %02d:%02d:%02d\n", weekday[tm.tm_wday], tm.tm_mday, tm.tm_mon + 1, tm.tm_year + 1900, tm.tm_hour, tm.tm_min, tm.tm_sec);
-    return weekday[tm.tm_wday];
+    printf("now: %s %02d-%02d-%d %02d:%02d:%02d\n", Weekday[tm.tm_wday], tm.tm_mday, tm.tm_mon + 1, tm.tm_year + 1900, tm.tm_hour, tm.tm_min, tm.tm_sec);
+    return Weekday[tm.tm_wday];
 
     // return NULL;
 }
@@ -17,23 +28,25 @@ char* current_day()
 long int string_to_sec(char* str)
 {
     struct tm t1;
+    memset(&t1, 0, sizeof(t1));
     strptime(str, "%d.%m.%Y", &t1);
     time_t t = mktime(&t1);
     return t;
 }
 
-struct tm string_to_tm(char* str)
+struct tm string_to_tm(char* date)
 {
-    struct tm t1;
-    strptime(str, "%d.%m.%Y", &t1);
-    return t1;
+    struct tm t;
+    memset(&t, 0, sizeof(t));
+    strptime(date, "%d.%m.%Y", &t);
+    return t;
 }
 
 int check_availability(char* date, char* time, char* doc_name)
 {
     struct tm t1 = string_to_tm(date);
     char* wd;
-    strcpy(wd, weekday[t1.tm_wday]);
+    strcpy(wd, Weekday[t1.tm_wday]);
     for(int a = 0; a < 10; a++)
         for(int b = 0; b < 3; b++)
             if(strcmp(doc_name, department[a].doctors[b].full_name) == 0)
@@ -80,15 +93,15 @@ int check_availability(char* date, char* time, char* doc_name)
 //     for(int i = 0; i < 24; i++)
 // }
 
-Schedule department_availability(char* dep)
-{
-    Schedule sch[3];
-    for(int a = 0; a < 10; a++)
-        if(strcmp(dep, department[a].dep_title) == 0)
-        {
+// Schedule department_availability(char* dep)
+// {
+//     Schedule sch[3];
+//     for(int a = 0; a < 10; a++)
+//         if(strcmp(dep, department[a].dep_title) == 0)
+//         {
             
-        }
-}
+//         }
+// }
 
 int save_appointment(Appointment app)
 {
@@ -101,7 +114,7 @@ int save_appointment(Appointment app)
     }
     Current_num_appointments++;
     sprintf(app.app_ID, "%d", 1000 + Current_num_appointments);
-    fprintf(file, "%i\n", app.app_ID);
+    fprintf(file, "%s\n", app.app_ID);
     fprintf(file, "%s\n", app.name);
     fprintf(file, "%s\n", app.email);
     fprintf(file, "%s\n", app.tel);
@@ -127,7 +140,6 @@ int cancel_appointment(Appointment app)
         printf("%s\n", appointment[i].doctor);
         printf("%s\n", appointment[i].date);
         printf("%s\n\n", appointment[i].time);
-
         if(strcmp(appointment[i].name, app.name) == 0 && strcmp(appointment[i].tel, app.tel) == 0 && strcmp(appointment[i].doctor, app.doctor) == 0 && strcmp(appointment[i].date, app.date) == 0 && strcmp(appointment[i].time, app.time) == 0)
             {
                 index = i;
@@ -280,18 +292,21 @@ int load_doctors()
         }
         else if (k == 3)
         {
-            department[i].doctors[0].appointment_price = (char*) malloc(3*sizeof(char));
+            department[i].doctors[0].appointment_price = (char*) malloc(4*sizeof(char));
             strcpy(department[i].doctors[0].appointment_price, str);
         }
         else if (k >= 4 && k <=6)
         {
-            strncpy(department[i].doctors[0].schedule[(k-3)%3].weekday, str, 3);
-            strncpy(department[i].doctors[0].schedule[(k-3)%3].session, str + 4, 24);
+            department[i].doctors[0].schedule[(k-4)%3].weekday = (char*) malloc(4*sizeof(char));
+            strncpy(department[i].doctors[0].schedule[(k-4)%3].weekday, str, 3);
+            department[i].doctors[0].schedule[(k-4)%3].weekday[3] = '\0';
+            department[i].doctors[0].schedule[(k-4)%3].session = (char*) malloc(25*sizeof(char));
+            strncpy(department[i].doctors[0].schedule[(k-4)%3].session, str + 4, 24);
         }
         else if (k == 7)
         {
             department[i].doctors[1].full_name = (char*) malloc(20*sizeof(char));
-            strcpy(department[i].doctors[1].full_name, str); 
+            strcpy(department[i].doctors[1].full_name, str);
         }
         else if (k == 8)
         {
@@ -300,8 +315,11 @@ int load_doctors()
         }
         else if (k >= 9 && k <=11)
         {
-            strncpy(department[i].doctors[1].schedule[(k-7)%3].weekday, str, 3);
-            strncpy(department[i].doctors[1].schedule[(k-7)%3].session, str + 4, 24);
+            department[i].doctors[1].schedule[(k-9)%3].weekday = (char*) malloc(4*sizeof(char));
+            strncpy(department[i].doctors[1].schedule[(k-9)%3].weekday, str, 3);
+            department[i].doctors[1].schedule[(k-9)%3].weekday[3] = '\0';
+            department[i].doctors[1].schedule[(k-9)%3].session = (char*) malloc(25*sizeof(char));
+            strncpy(department[i].doctors[1].schedule[(k-9)%3].session, str + 4, 24);
         }
         else if (k == 12)
         {
@@ -315,8 +333,11 @@ int load_doctors()
         }
         else if (k >= 14 && k <=16)
         {
-            strncpy(department[i].doctors[2].schedule[(k-11)%3].weekday, str, 3);
-            strncpy(department[i].doctors[2].schedule[(k-11)%3].session, str + 4, 24);
+            department[i].doctors[2].schedule[(k-14)%3].weekday = (char*) malloc(4*sizeof(char));
+            strncpy(department[i].doctors[2].schedule[(k-14)%3].weekday, str, 3);
+            department[i].doctors[2].schedule[(k-14)%3].weekday[3] = '\0';
+            department[i].doctors[2].schedule[(k-14)%3].session = (char*) malloc(25*sizeof(char));
+            strncpy(department[i].doctors[2].schedule[(k-14)%3].session, str + 4, 24);
         }
         else {k = 0; i++;}
         k++;
@@ -326,82 +347,96 @@ int load_doctors()
 }
 
 
-int main()
-{
-    int a;
-    a = load_appointments();
-    if (a != 0)
-        exit(1);
+// int main()
+// {
+//     int a;
+//     a = load_appointments();
+//     if (a != 0)
+//         exit(1);
     
-    for(int i = 0; i < Current_num_appointments; i++)
-    {
-        printf("%s\n", appointment[i].app_ID);
-        printf("%s\n", appointment[i].name);
-        printf("%s\n", appointment[i].email);
-        printf("%s\n", appointment[i].tel);
-        printf("%s\n", appointment[i].age);
-        printf("%s\n", appointment[i].department);
-        printf("%s\n", appointment[i].doctor);
-        printf("%s\n", appointment[i].date);
-        printf("%s\n", appointment[i].weekday);
-        printf("%s\n\n", appointment[i].time);
-    }
-    printf("%i\n", Current_num_appointments);
-    // Appointment app;
-    // app.app_ID = (char*) malloc(4*sizeof(char));
-    // // app.app_ID = NULL;
-    // app.name = (char*) malloc(30*sizeof(char));
-    // app.email = (char*) malloc(30*sizeof(char));
-    // app.tel = (char*) malloc(11*sizeof(char));
-    // app.age = (char*) malloc(3*sizeof(char));
-    // app.department = (char*) malloc(20*sizeof(char));
-    // app.doctor = (char*) malloc(20*sizeof(char));
-    // app.date = (char*) malloc(11*sizeof(char));
-    // app.weekday = (char*) malloc(3*sizeof(char));
-    // app.time = (char*) malloc(5*sizeof(char));
+//     for(int i = 0; i < Current_num_appointments; i++)
+//     {
+//         printf("%s\n", appointment[i].app_ID);
+//         printf("%s\n", appointment[i].name);
+//         printf("%s\n", appointment[i].email);
+//         printf("%s\n", appointment[i].tel);
+//         printf("%s\n", appointment[i].age);
+//         printf("%s\n", appointment[i].department);
+//         printf("%s\n", appointment[i].doctor);
+//         printf("%s\n", appointment[i].date);
+//         printf("%s\n", appointment[i].weekday);
+//         printf("%s\n\n", appointment[i].time);
+//     }
+//     printf("%i\n", Current_num_appointments);
+//     // Appointment app;
+//     // app.app_ID = (char*) malloc(4*sizeof(char));
+//     // // app.app_ID = NULL;
+//     // app.name = (char*) malloc(30*sizeof(char));
+//     // app.email = (char*) malloc(30*sizeof(char));
+//     // app.tel = (char*) malloc(11*sizeof(char));
+//     // app.age = (char*) malloc(3*sizeof(char));
+//     // app.department = (char*) malloc(20*sizeof(char));
+//     // app.doctor = (char*) malloc(20*sizeof(char));
+//     // app.date = (char*) malloc(11*sizeof(char));
+//     // app.weekday = (char*) malloc(3*sizeof(char));
+//     // app.time = (char*) malloc(5*sizeof(char));
 
-    // printf("Please enter your details: \n");
-    // scanf(" %[^\n]%*c", app.name);
-    // // printf("%s\n", app.name);
-    // scanf("%s", app.email);
-    // // printf("%s\n", app.email);
-    // scanf("%s", app.tel);
-    // scanf("%s", app.age);
-    // scanf("%s", app.department);
-    // scanf(" %[^\n]%*c", app.doctor);
-    // scanf("%s", app.date);
-    // scanf("%s", app.weekday);
-    // scanf("%s", app.time);
-    // save_appointment(app);
+//     // printf("Please enter your details: \n");
+//     // scanf(" %[^\n]%*c", app.name);
+//     // // printf("%s\n", app.name);
+//     // scanf("%s", app.email);
+//     // // printf("%s\n", app.email);
+//     // scanf("%s", app.tel);
+//     // scanf("%s", app.age);
+//     // scanf("%s", app.department);
+//     // scanf(" %[^\n]%*c", app.doctor);
+//     // scanf("%s", app.date);
+//     // scanf("%s", app.weekday);
+//     // scanf("%s", app.time);
+//     // save_appointment(app);
 
-    // scanf("%s", app.app_ID);
-    // scanf(" %[^\n]%*c", app.name);
-    // scanf("%s", app.tel);
-    // scanf(" %[^\n]%*c", app.doctor);
-    // scanf("%s", app.date);
-    // scanf("%s", app.time);
-    // app.name = "Christian Pustianu";
-    // app.tel = "0735851024";
-    // app.doctor = "mohamed webster";
-    // app.date = "06.04.2021";
-    // app.time = "13:30";
+//     // scanf("%s", app.app_ID);
+//     // scanf(" %[^\n]%*c", app.name);
+//     // scanf("%s", app.tel);
+//     // scanf(" %[^\n]%*c", app.doctor);
+//     // scanf("%s", app.date);
+//     // scanf("%s", app.time);
+//     // app.name = "Christian Pustianu";
+//     // app.tel = "0735851024";
+//     // app.doctor = "mohamed webster";
+//     // app.date = "06.04.2021";
+//     // app.time = "13:30";
 
-    // printf("%s\n", app.app_ID);
-    // printf("%s\n", app.name);
-    // printf("%s\n", app.email);
-    // printf("%s\n", app.tel);
-    // printf("%s\n", app.age);
-    // printf("%s\n", app.department);
-    // printf("%s\n", app.doctor);
-    // printf("%s\n", app.date);
-    // printf("%s\n", app.weekday);
-    // printf("%s\n", app.time);
-    // cancel_appointment(app);
-    int b;
-    b = load_doctors();
-    printf("\nLoading doctors...\n");
-    if (b != 0)
-        exit(1);
-    int c = check_availability("16.04.2021", "Fri", "09:30", "shiv boyce");
-    printf("%i", c);
-}
+//     // printf("%s\n", app.app_ID);
+//     // printf("%s\n", app.name);
+//     // printf("%s\n", app.email);
+//     // printf("%s\n", app.tel);
+//     // printf("%s\n", app.age);
+//     // printf("%s\n", app.department);
+//     // printf("%s\n", app.doctor);
+//     // printf("%s\n", app.date);
+//     // printf("%s\n", app.weekday);
+//     // printf("%s\n", app.time);
+//     // cancel_appointment(app);
+//     int b;
+//     b = load_doctors();
+//     printf("\nLoading doctors...\n");
+//     if (b != 0)
+//         exit(1);
+//     // int c = check_availability("16.04.2021", "09:30", "shiv boyce");
+//     // printf("%i", c);
+//     for(int i = 0; i < 10; i++)
+//     {
+//         printf("%s\n", department[i].dep_title);
+//         for(int j = 0; j < 3; j++)
+//         {
+//             printf("%s\n", department[i].doctors[j].full_name);
+//             printf("%s\n", department[i].doctors[j].appointment_price);
+//             for(int k = 0; k < 3; k++)
+//             {
+//                 printf("%s ", department[i].doctors[j].schedule[k].weekday);
+//                 printf("%s\n", department[i].doctors[j].schedule[k].session);
+//             }
+//         }
+//     }
+// }

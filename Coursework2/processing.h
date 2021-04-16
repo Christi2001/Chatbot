@@ -1,11 +1,10 @@
 #ifndef PROCESSING_GUARD__H
 #define PROCESSING_GUARD__H
 
-typedef struct{
-    char* weekday;
-    int day;
-    int month;
-}Date;
+#include "appointments.h"
+char words[100][20];
+Appointment current_appointment;
+char* doc_full_name;
 
 /**
  * Takes a string as input and saves it in chatlog.txt. Then it turns it to lowercase 
@@ -17,56 +16,94 @@ typedef struct{
 char* process_input(char* string);
 
 /**
- * Searches a string for a department from the list of departments in "department.txt".
+ * Takes a processed string as input and separates it into an array of words, 
+ * then saves it into the "words" array.
  * 
- * @param string The string that will be searched
+ * @param string The string that will be separated
+ * @return the array's length
+ */
+int split_string(char* string);
+
+/**
+ * Compares a string with every deparment in the "department" array 
+ * and if found, saves it in "current_appointment" struct.
+ * 
+ * @param dep The string that will be compared
  * @return 0 if it has found a department or 1 if not
  */
-int search_for_department(char* string);
+int search_for_department(char* dep);
 
 /**
- * Searches a string for a doctor from the list of doctors in "doctor.txt".
+ * Compares a string with every doctor in the "department" array 
+ * and if found, saves it in "current_appointment" struct. It can 
+ * find doctors even if the two names are reversed.
  * 
- * @param string The string that will be searched
+ * @param f_name First name
+ * @param l_name Last name
  * @return 0 if it has found a doctor or 1 if not
  */
-int search_for_doctor(char* string);
+int search_for_doctor(char* f_name, char* l_name);
 
 /**
- * Searches a string for any occurence of a date.
+ * Compares a name with every doctor in the "department" array 
+ * and if found, asks if it refers to the doctor.
  * 
- * @param string The string that will be searched
+ * @param name The name to be searched
+ * @return 0 if it has found a doctor or 1 if not
+ */
+int search_for_doctor_by_one_name(char* name);
+
+/**
+ * Compares a string with a list of words representing intent. 
+ * 
+ * @param word The word to be compared
+ * @return 0 if the word matches one in the list or 1 if not
+ */
+int search_for_intent_in_word(char* word);
+
+/**
+ * Searches a string for a phrase in a list of phrases representing intent.
+ * 
+ * @param string The string to be searched
+ * @return 0 if it has found a phrase in the list or 1 if not
+ */
+int search_for_intent_in_string(char* string);
+
+/**
+ * Searches an array of strings for any occurence of a date.
+ * 
+ * @param array_of_strings The array of strings that will be searched
  * @param date The date to search for
  * @return 0 if it has found a date or 1 if not
  */
-int search_for_date(char* string, char* date);
+int search_for_date(char* array_of_strings, char* date);
 
 /**
- * Searches a string for any occurence of a weekday.
+ * Searches an array of strings for any occurence of a weekday.
  * 
- * @param string The string that will be searched
+ * @param array_of_strings The array of strings that will be searched
  * @param weekday The day of the week to search for
  * @return 0 if it has found a weekday or 1 if not
  */
-int search_for_weekday(char* string, char* weekday);
+int search_for_weekday(char* array_of_strings, char* weekday);
 
 /**
- * Searches a string for any occurence of time.
+ * Searches an array of strings for any occurence of time.
  * 
- * @param string The string that will be searched
+ * @param array_of_strings The array of strings that will be searched
  * @param time The time to search for
  * @return 0 if it has found a date or 1 if not
  */
-int search_for_time(char* string, char* time);
+int search_for_time(char* array_of_strings, char* time);
 
 /**
- * Searches a string for a given keyword.
+ * Searches an array of strings for a given keyword.
  * 
- * @param string The string that will be searched
+ * @param array_of_strings The array of strings that will be searched
  * @param keyword A keyword that will be searched for
  * @return 0 if it has found the keyword or 1 if not
  */
-int search_for_keyword(char* string, char* keyword);
+int search_for_keyword(char* array_of_strings, char* keyword);
 
 /**
  * Saves a string in "chatlog.txt".

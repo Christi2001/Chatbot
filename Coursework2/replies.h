@@ -37,5 +37,19 @@ void ask_for_other_questions();
  */
 void didnt_understand();
 
+/**
+ * Searches for a department and lists the three doctors in it.
+ * 
+ * @param dep The department to be searched for
+ * @return string with the reply
+ */
+char* list_doctors_in_dep(char* dep);
+
+/**
+ * Prints the reply and hands it to chatlog() to save it.
+ * 
+ * @param reply The reply to be printed
+ */
+void respond(char* reply);
 
 #endif
