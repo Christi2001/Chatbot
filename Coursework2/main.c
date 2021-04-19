@@ -10,16 +10,16 @@
 int main()
 {
     // Appointment current_appointment;
-    current_appointment.app_ID = (char*) malloc(4*sizeof(char));
+    current_appointment.app_ID = (char*) malloc(5*sizeof(char));
     current_appointment.name = (char*) malloc(30*sizeof(char));
     current_appointment.email = (char*) malloc(30*sizeof(char));
-    current_appointment.tel = (char*) malloc(11*sizeof(char));
-    current_appointment.age = (char*) malloc(3*sizeof(char));
+    current_appointment.tel = (char*) malloc(12*sizeof(char));
+    current_appointment.age = (char*) malloc(4*sizeof(char));
     current_appointment.department = (char*) malloc(20*sizeof(char));
     current_appointment.doctor = (char*) malloc(20*sizeof(char));
     current_appointment.date = (char*) malloc(11*sizeof(char));
-    current_appointment.weekday = (char*) malloc(3*sizeof(char));
-    current_appointment.time = (char*) malloc(5*sizeof(char));
+    current_appointment.weekday = (char*) malloc(4*sizeof(char));
+    current_appointment.time = (char*) malloc(6*sizeof(char));
     
     strcpy(current_appointment.name, "");
     strcpy(current_appointment.email, "");
@@ -37,16 +37,17 @@ int main()
     int cancel_appointment = 0;
     int cancel = 0;
     int intent;
-    int see_doctor = 0;
     int one_name = 1;
-    int doc_confirmation = 0;
+    // switches for questions asked by the bot
+    int Q_doc_confirmation = 0;
+    int Q_which_doctor = 0;
     // int not;
 
-    char* input = (char*) malloc(200 * sizeof(char));
-    char* processed_input = (char*) malloc(200 * sizeof(char));
-    char* reply = (char*) malloc(200* sizeof(char));
+    char* input = (char*) malloc(200*sizeof(char));
+    char* processed_input = (char*) malloc(200*sizeof(char));
+    char* reply = (char*) malloc(200*sizeof(char));
 
-    doc_full_name = (char*) malloc(30* sizeof(char));
+    doc_full_name = (char*) malloc(30*sizeof(char));
     
     load_appointments();
     load_doctors();
@@ -65,7 +66,7 @@ int main()
             intent = 1;
         for (int i = 0; i < length; i++)
         {
-            // printf("%d", make_appointment);
+            printf("%d", make_appointment);
             // printf("%s\n", words[i]);
             if(intent == 0)
                 if(search_for_intent_in_word(words[i]) == 0)
@@ -85,19 +86,23 @@ int main()
             if(make_appointment == 1)
             {
                 if(strcmp(current_appointment.department, "") == 0)
+                {
+                    printf("1");
                     search_for_department(words[i]);
+                    printf("2");
+                }
                 if(strcmp(current_appointment.doctor, "") == 0 && i > 0)
                 {
                     search_for_doctor(words[i-1], words[i]);
                 }
                 if(strcmp(current_appointment.doctor, "") == 0)
                     one_name = search_for_doctor_by_one_name(words[i]);
-                if(one_name == 0 && doc_confirmation == 0)
+                if(one_name == 0 && Q_doc_confirmation == 0)
                 {
                     sprintf(reply, "Are you referring to dr. %s ?\n", doc_full_name);
-                    doc_confirmation = 1;
+                    Q_doc_confirmation = 1;
                 }
-                if(doc_confirmation == 1)
+                if(Q_doc_confirmation == 1)
                     if(strcmp(words[i], "yes") == 0)
                     {
                         if(strcmp(current_appointment.doctor, "") == 0)
@@ -108,7 +113,7 @@ int main()
                     }
             }
 
-            if(see_doctor == 1)
+            if(Q_which_doctor == 1)
             {
                 if(strcmp(words[i], "yes") == 0)
                 {
@@ -127,11 +132,11 @@ int main()
             {
                 strcpy(reply, "Ok, which department would you like to go to?\n");
             }
-            else if(strcmp(current_appointment.doctor, "") == 0 && see_doctor == 0)
+            else if(strcmp(current_appointment.doctor, "") == 0 && Q_which_doctor == 0)
             {
-                printf("%i", see_doctor);
+                printf("%i", Q_which_doctor);
                 strcpy(reply, "Ok, do you know which doctor you would like to see?\n");
-                see_doctor = 1;
+                Q_which_doctor = 1;
             }
         }
 
@@ -143,18 +148,10 @@ int main()
         for(int i = 0; i < length; i++)
         {
             for(int j = 0; j < 20; j++)
-                words[i][j] = 0;
+                words[i][j] = '\0';
         }
         respond(reply);
-        reply = "";
     }
-
-    // char* ptr = NULL;
-    // char* usr_input = read_input();
-    // ptr = strstr(usr_input, "hello");
-    // if(ptr != NULL) printf("Found!");
-    // else printf("Not found!");
-    // printf("\n%s\n", usr_input);
 
     return 0;
 }

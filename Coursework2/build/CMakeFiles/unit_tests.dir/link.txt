@@ -1,0 +1,1 @@
+/usr/bin/cc -std=c99 -fdump-rtl-expand -g  -rdynamic CMakeFiles/unit_tests.dir/unit_tests.c.o CMakeFiles/unit_tests.dir/processing.c.o CMakeFiles/unit_tests.dir/appointments.c.o CMakeFiles/unit_tests.dir/replies.c.o CMakeFiles/unit_tests.dir/unity/src/unity.c.o  -o unit_tests 

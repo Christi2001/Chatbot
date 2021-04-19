@@ -18,7 +18,7 @@ char* process_input(char* string)
     // scanf(" %[^\n]%*c", string);
     for(int i = 0; i < strlen(string); i++)
     {
-        string[i] = tolower(string[i]);
+        // string[i] = tolower(string[i]);
         if(isdigit(string[i]) || isalpha(string[i]) || string[i] == ' ')
         {
             processed_input[j] = string[i];
@@ -52,10 +52,14 @@ int split_string(char* string)
 
 int search_for_department(char* dep)
 {
+    char dep1[20] = "";
+    for(int j = 0; j < strlen(dep); j++)
+        dep1[j] = tolower(dep[j]);
+    dep1[0] = toupper(dep[0]);
     for(int i = 0; i < 10; i++)
-        if(strcmp(dep, department[i].dep_title) == 0)
+        if(strcmp(dep1, department[i].dep_title) == 0)
         {
-            strcpy(current_appointment.department, dep);
+            strcpy(current_appointment.department, dep1);
             return 0;
         }
     return 1;
@@ -63,16 +67,26 @@ int search_for_department(char* dep)
 
 int search_for_doctor(char* f_name, char* l_name)
 {
+    char f_name1[20] = "";
+    for(int j = 0; j < strlen(f_name); j++)
+        f_name1[j] = tolower(f_name[j]);
+    f_name1[0] = toupper(f_name[0]);
+
+    char l_name1[20] = "";
+    for(int j = 0; j < strlen(l_name); j++)
+        l_name1[j] = tolower(l_name[j]);
+    l_name1[0] = toupper(l_name[0]);
+
     char full_name1[30];
     full_name1[0] = '\0';
-    strcat(full_name1, f_name);
+    strcat(full_name1, f_name1);
     strcat(full_name1, " ");
-    strcat(full_name1, l_name);
+    strcat(full_name1, l_name1);
     char full_name2[30];
     full_name2[0] = '\0';
-    strcat(full_name2, l_name);
+    strcat(full_name2, l_name1);
     strcat(full_name2, " ");
-    strcat(full_name2, f_name);
+    strcat(full_name2, f_name1);
     for(int i = 0; i < 10; i++)
         for(int j = 0; j < 3; j++)
         {

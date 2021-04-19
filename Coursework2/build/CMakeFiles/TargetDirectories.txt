@@ -1,0 +1,4 @@
+/home/chris/comp1921/CWK2/comp1921_cwk2/Coursework2/build/CMakeFiles/rebuild_cache.dir
+/home/chris/comp1921/CWK2/comp1921_cwk2/Coursework2/build/CMakeFiles/edit_cache.dir
+/home/chris/comp1921/CWK2/comp1921_cwk2/Coursework2/build/CMakeFiles/unit_tests.dir
+/home/chris/comp1921/CWK2/comp1921_cwk2/Coursework2/build/CMakeFiles/chatbot.dir

@@ -13,7 +13,7 @@
 void test_current_day() {
 	char* day = (char*) malloc(4 * sizeof(char));
 	day = current_day();
-	TEST_ASSERT_EQUAL_STRING("Fri", day);
+	TEST_ASSERT_EQUAL_STRING("Mon", day);
 }
 
 void test_string_to_sec() {
@@ -36,12 +36,12 @@ void test_check_availability() {
 	TEST_ASSERT_EQUAL_INT(0, app);
 	TEST_ASSERT_EQUAL_INT(0, doc);
 	
-	int free1 = check_availability("16.04.2021", "09:00", "kelsie martinez");
-	int busy1 = check_availability("16.04.2021", "09:30", "kelsie martinez");
-	int outside_sch1 = check_availability("16.04.2021", "13:00", "kelsie martinez");
-	int free2 = check_availability("08.04.2021", "16:30", "mohamed webster");
-	int busy2 = check_availability("06.04.2021", "13:30", "mohamed webster");
-	int outside_sch2 = check_availability("07.04.2021", "12:00", "mohamed webster");
+	int free1 = check_availability("16.04.2021", "09:00", "Kelsie Martinez");
+	int busy1 = check_availability("16.04.2021", "09:30", "Kelsie Martinez");
+	int outside_sch1 = check_availability("16.04.2021", "13:00", "Kelsie Martinez");
+	int free2 = check_availability("08.04.2021", "16:30", "Mohamed Webster");
+	int busy2 = check_availability("06.04.2021", "13:30", "Mohamed Webster");
+	int outside_sch2 = check_availability("07.04.2021", "12:00", "Mohamed Webster");
 
 	TEST_ASSERT_EQUAL_INT(0, free1);
 	TEST_ASSERT_EQUAL_INT(1, busy1);
@@ -60,7 +60,7 @@ void test_load_appointments() {
 	TEST_ASSERT_EQUAL_STRING("Rowan Atkinson", appointment[0].name);
 	TEST_ASSERT_EQUAL_STRING("07323404154", appointment[0].tel);
 	TEST_ASSERT_EQUAL_STRING("1006", appointment[5].app_ID);
-	TEST_ASSERT_EQUAL_STRING("otolaryngology", appointment[5].department);
+	TEST_ASSERT_EQUAL_STRING("Otolaryngology", appointment[5].department);
 	TEST_ASSERT_EQUAL_STRING("09:30", appointment[5].time);
 
 
@@ -77,18 +77,18 @@ void test_load_doctors() {
 	TEST_ASSERT_EQUAL_INT_MESSAGE(0, a, "Error: doctors unsuccessfully loaded!");
 
 	//Edge cases
-	TEST_ASSERT_EQUAL_STRING("orthopedy", department[0].dep_title);
-	TEST_ASSERT_EQUAL_STRING("zaara rosales", department[0].doctors[0].full_name);
+	TEST_ASSERT_EQUAL_STRING("Orthopedy", department[0].dep_title);
+	TEST_ASSERT_EQUAL_STRING("Zaara Rosales", department[0].doctors[0].full_name);
 	TEST_ASSERT_EQUAL_STRING("70", department[0].doctors[0].appointment_price);
 	TEST_ASSERT_EQUAL_STRING("Mon", department[0].doctors[0].schedule[0].weekday);
 	
 	TEST_ASSERT_EQUAL_STRING("85", department[9].doctors[2].appointment_price);
 	TEST_ASSERT_EQUAL_STRING("000011110000111111110000", department[9].doctors[2].schedule[2].session);
 	//Random Tests
-	TEST_ASSERT_EQUAL_STRING("dermatology", department[3].dep_title);
-	TEST_ASSERT_EQUAL_STRING("francesco blackwell", department[3].doctors[2].full_name);
+	TEST_ASSERT_EQUAL_STRING("Dermatology", department[3].dep_title);
+	TEST_ASSERT_EQUAL_STRING("Francesco Blackwell", department[3].doctors[2].full_name);
 	TEST_ASSERT_EQUAL_STRING("70", department[3].doctors[0].appointment_price);
-	TEST_ASSERT_EQUAL_STRING("alicja osborn", department[4].doctors[0].full_name);
+	TEST_ASSERT_EQUAL_STRING("Alicja Osborn", department[4].doctors[0].full_name);
 	TEST_ASSERT_EQUAL_STRING("Mon", department[4].doctors[0].schedule[0].weekday);
 	TEST_ASSERT_EQUAL_STRING("Thu", department[4].doctors[1].schedule[1].weekday);
 	TEST_ASSERT_EQUAL_STRING("000011110000111111110000", department[4].doctors[1].schedule[1].session);
@@ -100,7 +100,9 @@ void test_load_doctors() {
 
 void test_search_for_department() {
 	current_appointment.department = (char*) malloc(20*sizeof(char));
-	TEST_ASSERT_EQUAL_INT(0, search_for_department("endocrinology"));
+	// TEST_ASSERT_EQUAL_INT(0, search_for_department("endocrinology"));
+	TEST_ASSERT_EQUAL_INT(0, search_for_department("Endocrinology"));
+	TEST_ASSERT_EQUAL_INT(0, search_for_department("ENDOCRINOLOGY"));
 	TEST_ASSERT_EQUAL_INT(0, search_for_department("orthopedy"));
 	TEST_ASSERT_EQUAL_INT(0, search_for_department("neurology"));
 	TEST_ASSERT_EQUAL_INT(1, search_for_department("torthopedy"));
@@ -112,15 +114,29 @@ void test_search_for_department() {
 
 void test_search_for_doctor() {
 	current_appointment.doctor = (char*) malloc(30*sizeof(char));
-	TEST_ASSERT_EQUAL_INT(0, search_for_doctor("colleen", "wall"));
-	TEST_ASSERT_EQUAL_INT(0, search_for_doctor("wall", "colleen"));
-	TEST_ASSERT_EQUAL_INT(1, search_for_doctor("colleen", "walls"));
-	TEST_ASSERT_EQUAL_INT(1, search_for_doctor("tcolleen", "lwall"));
-	TEST_ASSERT_EQUAL_INT(1, search_for_doctor("colleen", "colleen"));
-	TEST_ASSERT_EQUAL_INT(1, search_for_doctor("wall", "wall"));
-	TEST_ASSERT_EQUAL_INT(0, search_for_doctor("mohamed", "webster"));
-	TEST_ASSERT_EQUAL_INT(0, search_for_doctor("farmer", "derek"));
+	TEST_ASSERT_EQUAL_INT(0, search_for_doctor("Colleen", "Wall"));
+	TEST_ASSERT_EQUAL_INT(0, search_for_doctor("Wall", "Colleen"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_doctor("Colleen", "Walls"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_doctor("tColleen", "LWall"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_doctor("Colleen", "Colleen"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_doctor("Wall", "Wall"));
+	TEST_ASSERT_EQUAL_INT(0, search_for_doctor("Mohamed", "Webster"));
+	TEST_ASSERT_EQUAL_INT(0, search_for_doctor("Farmer", "Derek"));
 	free(current_appointment.doctor);
+}
+
+void test_search_for_doctor_by_one_name() {
+	current_appointment.doctor = (char*) malloc(30*sizeof(char));
+	doc_full_name = (char*) malloc(30*sizeof(char));
+	TEST_ASSERT_EQUAL_INT(0, search_for_doctor_by_one_name("Colleen"));
+	TEST_ASSERT_EQUAL_INT(0, search_for_doctor_by_one_name("Wall"));
+	TEST_ASSERT_EQUAL_INT(0, search_for_doctor_by_one_name("Isaac"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_doctor_by_one_name("Walls"));
+	TEST_ASSERT_EQUAL_INT(0, search_for_doctor_by_one_name("Moham"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_doctor_by_one_name("afsdaf"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_doctor_by_one_name("Hello"));
+	free(current_appointment.doctor);
+	free(doc_full_name);
 }
 
 void test_search_for_intent_in_word() {
@@ -167,9 +183,9 @@ int main() {
 	//Processing Module
 	RUN_TEST(test_search_for_department);
 	RUN_TEST(test_search_for_doctor);
+	RUN_TEST(test_search_for_doctor_by_one_name);
 	RUN_TEST(test_search_for_intent_in_word);
 	RUN_TEST(test_search_for_intent_in_string);
-	// RUN_TEST(test_);
 	// RUN_TEST(test_);
 
 	return UNITY_END();

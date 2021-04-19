@@ -1,0 +1,243 @@
+Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Hello I am Christian Pustianu Constantin and I would like to make an appointment.
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I would like to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: dr rowley
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment rowley
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: dr bea rowley please
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: orthopedy
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment here
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Patient: neurology
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make apppointment
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: rowley
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: bea rowley
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: bea rowley
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I would like to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hwllo I would like to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I would like to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: cardiology
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: cardiology
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: cardiology
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: cardiology
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: cardiology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Lacy Hampton please.
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: dr Lacy Hampton Please
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment lacy hampton
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
