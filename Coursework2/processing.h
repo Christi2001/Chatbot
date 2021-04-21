@@ -4,7 +4,8 @@
 #include "appointments.h"
 char words[100][20];
 Appointment current_appointment;
-char* doc_full_name;
+char* temp_doc_name;
+char* temp_dep;
 
 /**
  * Takes a string as input and saves it in chatlog.txt. Then it turns it to lowercase 
@@ -68,6 +69,10 @@ int search_for_intent_in_word(char* word);
  * @return 0 if it has found a phrase in the list or 1 if not
  */
 int search_for_intent_in_string(char* string);
+
+int search_for_question(char* string);
+
+int search_for_request(char* string);
 
 /**
  * Searches an array of strings for any occurence of a date.

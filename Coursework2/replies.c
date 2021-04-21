@@ -35,6 +35,60 @@ void didnt_understand()
 
 }
 
+char* list_all_doctors()
+{
+    char* string = (char*) malloc(1000*sizeof(char));
+    char* dep = (char*) malloc(25*sizeof(char));
+    char* doc = (char*) malloc(35*sizeof(char));
+    strcpy(string, "The doctors in our clinic are:\n");
+    for(int i = 0; i < 9; i++)
+    {
+        strcpy(doc, department[i].doctors[0].full_name);
+        strcat(string, doc);
+        strcat(string, ", ");
+        strcpy(doc, department[i].doctors[1].full_name);
+        strcat(string, doc);
+        strcat(string, " and ");
+        strcpy(doc, department[i].doctors[2].full_name);
+        strcat(string, doc);
+        strcat(string, " for ");
+        strcpy(dep, department[i].dep_title);
+        strcat(string, dep);
+        strcat(string, ",\n");
+    }
+    strcat(string, "and ");
+    strcpy(doc, department[9].doctors[0].full_name);
+        strcat(string, doc);
+        strcat(string, ", ");
+        strcpy(doc, department[9].doctors[1].full_name);
+        strcat(string, doc);
+        strcat(string, " and ");
+        strcpy(doc, department[9].doctors[2].full_name);
+        strcat(string, doc);
+        strcat(string, " for ");
+        strcpy(dep, department[9].dep_title);
+        strcat(string, dep);
+        strcat(string, ".\n");
+    return string;
+}
+
+
+char* list_departments()
+{
+    char* string = (char*) malloc(200*sizeof(char));
+    char* dep = (char*) malloc(25*sizeof(char));
+    strcpy(string, "The departments in our clinic are:\n");
+    for(int i = 0; i < 9; i++)
+    {
+        strcpy(dep, department[i].dep_title);
+        strcat(string, dep);
+        strcat(string, ",\n");
+    }
+    sprintf(dep, "and %s.\n", department[9].dep_title);
+    strcat(string, dep);
+    return string;
+}
+
 char* list_doctors_in_dep(char* dep)
 {
     char* string = (char*) malloc(200*sizeof(char));

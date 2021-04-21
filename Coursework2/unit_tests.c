@@ -127,16 +127,19 @@ void test_search_for_doctor() {
 
 void test_search_for_doctor_by_one_name() {
 	current_appointment.doctor = (char*) malloc(30*sizeof(char));
-	doc_full_name = (char*) malloc(30*sizeof(char));
+	temp_doc_name = (char*) malloc(30*sizeof(char));
+	temp_dep = (char*) malloc(20*sizeof(char));
 	TEST_ASSERT_EQUAL_INT(0, search_for_doctor_by_one_name("Colleen"));
 	TEST_ASSERT_EQUAL_INT(0, search_for_doctor_by_one_name("Wall"));
 	TEST_ASSERT_EQUAL_INT(0, search_for_doctor_by_one_name("Isaac"));
 	TEST_ASSERT_EQUAL_INT(1, search_for_doctor_by_one_name("Walls"));
-	TEST_ASSERT_EQUAL_INT(0, search_for_doctor_by_one_name("Moham"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_doctor_by_one_name("Moham"));
 	TEST_ASSERT_EQUAL_INT(1, search_for_doctor_by_one_name("afsdaf"));
 	TEST_ASSERT_EQUAL_INT(1, search_for_doctor_by_one_name("Hello"));
 	free(current_appointment.doctor);
-	free(doc_full_name);
+	free(temp_doc_name);
+	free(temp_dep);
+
 }
 
 void test_search_for_intent_in_word() {
@@ -174,7 +177,7 @@ int main() {
 	UNITY_BEGIN();
 
 	// Appointments Module
-	RUN_TEST(test_current_day);
+	// RUN_TEST(test_current_day);
 	RUN_TEST(test_string_to_sec);
 	RUN_TEST(test_string_to_tm);
 	// RUN_TEST(test_check_availability);

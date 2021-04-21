@@ -18,7 +18,7 @@ char* process_input(char* string)
     // scanf(" %[^\n]%*c", string);
     for(int i = 0; i < strlen(string); i++)
     {
-        // string[i] = tolower(string[i]);
+        string[i] = tolower(string[i]);
         if(isdigit(string[i]) || isalpha(string[i]) || string[i] == ' ')
         {
             processed_input[j] = string[i];
@@ -108,15 +108,42 @@ int search_for_doctor(char* f_name, char* l_name)
 
 int search_for_doctor_by_one_name(char* name)
 {
-    char* ptr = NULL;
+    int m;
+    int n;
+    char name1[20] = "";
+    for(int j = 0; j < strlen(name); j++)
+        name1[j] = tolower(name[j]);
+    name1[0] = toupper(name[0]);
+    char names[2][15];
     for(int i = 0; i < 10; i++)
         for(int j = 0; j < 3; j++)
         {
-            ptr = strstr(department[i].doctors[j].full_name, name);
-            if(ptr != NULL)
+            m = 0;
+            n = 0;
+            for(int l = 0; l < strlen(department[i].doctors[j].full_name); l++)
             {
-                strcpy(doc_full_name, department[i].doctors[j].full_name);
+                if(department[i].doctors[j].full_name[l] == ' ' || department[i].doctors[j].full_name[l] == '\0')
+                {
+                    names[m][n] = '\0';
+                    m++;
+                    n = 0;
+                }
+                else
+                {
+                    names[m][n] = department[i].doctors[j].full_name[l];
+                    n++;
+                }
+            }
+            if(strcmp(name1, names[0]) == 0 || strcmp(name1, names[1]) == 0)
+            {
+                strcpy(temp_doc_name, department[i].doctors[j].full_name);
+                strcpy(temp_dep, department[i].dep_title);
                 return 0;
+            }
+            for(int b = 0; b < 15; b++)
+            {
+                names[0][b] = '\0';
+                names[1][b] = '\0';
             }
         }
     return 1;
@@ -138,6 +165,37 @@ int search_for_intent_in_string(char* string)
     for(int i = 0; i < 3; i++)
     {
         ptr = strstr(string, intention[i]);
+        if(ptr != NULL)
+            return 0;
+    }
+    return 1;
+}
+
+int search_for_question(char* string)
+{
+    char* question = NULL;
+    question = strstr(string, "?");
+    if(question != NULL)
+    {
+        char* ptr = NULL;
+        char* request[10] = {"What", "Which", "Where", "How", "When", "what", "which", "where", "how", "when"};
+        for(int i = 0; i < 10; i++)
+        {
+            ptr = strstr(string, request[i]);
+            if(ptr != NULL)
+                return 0;
+        }
+    }
+    return 1;
+}
+
+int search_for_request(char* string)
+{
+    char* ptr = NULL;
+    char* request[10] = {"show me", "tell me", "may I see", "can I see", "Can I have", "Show me", "Tell me", "May I see", "Can I see", "Can I have"};
+    for(int i = 0; i < 10; i++)
+    {
+        ptr = strstr(string, request[i]);
         if(ptr != NULL)
             return 0;
     }
@@ -176,3 +234,14 @@ int chatlog(char* string)
     fprintf(chatlog, "%s\n", string);
     fclose(chatlog);
 }
+
+// int main()
+// {
+//     current_appointment.doctor = (char*) malloc(30*sizeof(char));
+// 	temp_doc_name = (char*) malloc(30*sizeof(char));
+//     load_doctors();
+//     int i = search_for_doctor_by_one_name("Madina");
+//     printf("%i\n", i);
+//     free(current_appointment.doctor);
+// 	free(temp_doc_name);
+// }

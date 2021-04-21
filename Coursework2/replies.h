@@ -37,6 +37,10 @@ void ask_for_other_questions();
  */
 void didnt_understand();
 
+char* list_all_doctors();
+
+char* list_departments();
+
 /**
  * Searches for a department and lists the three doctors in it.
  * 

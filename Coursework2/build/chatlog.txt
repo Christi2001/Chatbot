@@ -241,3 +241,1038 @@ Patient: want make appointment lacy hampton
 Chatbot: Hello! My name is Bob and I am your virtual assistant.
 How may I help you?
 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hi, can I have a list of all doctors?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, can I have a list of all doctors?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, can I have a list of all doctors?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to see a list of all departments
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: what services do you provide?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: can I see a list of all departments?
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to see a list
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to see a list
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to see a list
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to see a list
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can I see a list of all doctors?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can I see a list of all doctorS?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: can I see a list of all doctors?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can I see a list of all doctors?
+Chatbot: The doctors in our clinic are:
+Orthopedy with doctors: Zaara Rosales, Bea Rowley, Herman Mcdowell, Oncology with doctors: Vivienne Bradshaw, Isaac Maguire, Derek Farmer, Gynecology with doctors: Osian Connor, Garin Griffin, Cally Cardenas, Dermatology with doctors: Alberto Johns, Mohamed Webster, Francesco Blackwell, Ophthalmology with doctors: Alicja Osborn, Kelsie Martinez, Colleen Wall, Otolaryngology with doctors: Esha Hyde, Shiv Boyce, Qasim Samuels, Neurology with doctors: Lacy Hampton, Asma Farrell, Sinead Hines, Pulmonology with doctors: Maureen Novak, 90, Julie Rubio, Cardiology with doctors: Finnian Gillespie, Simeon Middleton, Caio Orozco, Endocrinology with doctors: Shaquille Dennis, Andrei Guevara, Leonie Daniels.
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can I see a list of all doctors?
+Chatbot: The doctors in our clinic are:
+Orthopedy with doctors: Zaara Rosales, Bea Rowley, Herman Mcdowell, 
+Oncology with doctors: Vivienne Bradshaw, Isaac Maguire, Derek Farmer, 
+Gynecology with doctors: Osian Connor, Garin Griffin, Cally Cardenas, 
+Dermatology with doctors: Alberto Johns, Mohamed Webster, Francesco Blackwell, 
+Ophthalmology with doctors: Alicja Osborn, Kelsie Martinez, Colleen Wall, 
+Otolaryngology with doctors: Esha Hyde, Shiv Boyce, Qasim Samuels, 
+Neurology with doctors: Lacy Hampton, Asma Farrell, Sinead Hines, 
+Pulmonology with doctors: Maureen Novak, 90, Julie Rubio, 
+Cardiology with doctors: Finnian Gillespie, Simeon Middleton, Caio Orozco, 
+Endocrinology with doctors: Shaquille Dennis, Andrei Guevara, Leonie Daniels.
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to see a list o doctors
+Chatbot: In our clinic are we have:
+Orthopedy with doctors: Zaara Rosales, Bea Rowley, Herman Mcdowell, 
+Oncology with doctors: Vivienne Bradshaw, Isaac Maguire, Derek Farmer, 
+Gynecology with doctors: Osian Connor, Garin Griffin, Cally Cardenas, 
+Dermatology with doctors: Alberto Johns, Mohamed Webster, Francesco Blackwell, 
+Ophthalmology with doctors: Alicja Osborn, Kelsie Martinez, Colleen Wall, 
+Otolaryngology with doctors: Esha Hyde, Shiv Boyce, Qasim Samuels, 
+Neurology with doctors: Lacy Hampton, Asma Farrell, Sinead Hines, 
+Pulmonology with doctors: Maureen Novak, 90, Julie Rubio, 
+Cardiology with doctors: Finnian Gillespie, Simeon Middleton, Caio Orozco, 
+Endocrinology with doctors: Shaquille Dennis, Andrei Guevara, Leonie Daniels.
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Which doctors are in this clinic?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Which doctors are in this clinic?
+Chatbot: In our clinic there is:
+Orthopedy with doctors Zaara Rosales, Bea Rowley, Herman Mcdowell, 
+Oncology with doctors Vivienne Bradshaw, Isaac Maguire, Derek Farmer, 
+Gynecology with doctors Osian Connor, Garin Griffin, Cally Cardenas, 
+Dermatology with doctors Alberto Johns, Mohamed Webster, Francesco Blackwell, 
+Ophthalmology with doctors Alicja Osborn, Kelsie Martinez, Colleen Wall, 
+Otolaryngology with doctors Esha Hyde, Shiv Boyce, Qasim Samuels, 
+Neurology with doctors Lacy Hampton, Asma Farrell, Sinead Hines, 
+Pulmonology with doctors Maureen Novak, Madina Carter, Julie Rubio, 
+Cardiology with doctors Finnian Gillespie, Simeon Middleton, Caio Orozco, 
+Endocrinology with doctors: Shaquille Dennis, Andrei Guevara, Leonie Daniels.
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Which doctors are in this clinic?
+Chatbot: The doctors in our clinic are:
+Zaara Rosales, Bea Rowley,  and Herman Mcdowell for Orthopedy
+Vivienne Bradshaw, Isaac Maguire,  and Derek Farmer for Oncology
+Osian Connor, Garin Griffin,  and Cally Cardenas for Gynecology
+Alberto Johns, Mohamed Webster,  and Francesco Blackwell for Dermatology
+Alicja Osborn, Kelsie Martinez,  and Colleen Wall for Ophthalmology
+Esha Hyde, Shiv Boyce,  and Qasim Samuels for Otolaryngology
+Lacy Hampton, Asma Farrell,  and Sinead Hines for Neurology
+Maureen Novak, Madina Carter,  and Julie Rubio for Pulmonology
+Finnian Gillespie, Simeon Middleton,  and Caio Orozco for Cardiology
+ and Shaquille Dennis, Andrei Guevara,  and Leonie Daniels for Endocrinology.
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can I have a list of all doctors in this clinic?
+Chatbot: The doctors in our clinic are:
+Zaara Rosales, Bea Rowley,  and Herman Mcdowell for Orthopedy
+Vivienne Bradshaw, Isaac Maguire,  and Derek Farmer for Oncology
+Osian Connor, Garin Griffin,  and Cally Cardenas for Gynecology
+Alberto Johns, Mohamed Webster,  and Francesco Blackwell for Dermatology
+Alicja Osborn, Kelsie Martinez,  and Colleen Wall for Ophthalmology
+Esha Hyde, Shiv Boyce,  and Qasim Samuels for Otolaryngology
+Lacy Hampton, Asma Farrell,  and Sinead Hines for Neurology
+Maureen Novak, Madina Carter,  and Julie Rubio for Pulmonology
+Finnian Gillespie, Simeon Middleton,  and Caio Orozco for Cardiology
+and Shaquille Dennis, Andrei Guevara,  and Leonie Daniels for Endocrinology.
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can I have a list of the doctors in this clinic?
+Chatbot: The doctors in our clinic are:
+Zaara Rosales, Bea Rowley, and Herman Mcdowell for Orthopedy
+Vivienne Bradshaw, Isaac Maguire, and Derek Farmer for Oncology
+Osian Connor, Garin Griffin, and Cally Cardenas for Gynecology
+Alberto Johns, Mohamed Webster, and Francesco Blackwell for Dermatology
+Alicja Osborn, Kelsie Martinez, and Colleen Wall for Ophthalmology
+Esha Hyde, Shiv Boyce, and Qasim Samuels for Otolaryngology
+Lacy Hampton, Asma Farrell, and Sinead Hines for Neurology
+Maureen Novak, Madina Carter, and Julie Rubio for Pulmonology
+Finnian Gillespie, Simeon Middleton, and Caio Orozco for Cardiology
+and Shaquille Dennis, Andrei Guevara, and Leonie Daniels for Endocrinology.
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can I have a list of all departments?
+Chatbot: The departments in our clinic are:
+Orthopedy
+Oncology
+Gynecology
+Dermatology
+Ophthalmology
+Otolaryngology
+Neurology
+Pulmonology
+Cardiology
+
+Patient: Can I have a list of all doctors?
+Chatbot: The doctors in our clinic are:
+Zaara Rosales, Bea Rowley and Herman Mcdowell for Orthopedy
+Vivienne Bradshaw, Isaac Maguire and Derek Farmer for Oncology
+Osian Connor, Garin Griffin and Cally Cardenas for Gynecology
+Alberto Johns, Mohamed Webster and Francesco Blackwell for Dermatology
+Alicja Osborn, Kelsie Martinez and Colleen Wall for Ophthalmology
+Esha Hyde, Shiv Boyce and Qasim Samuels for Otolaryngology
+Lacy Hampton, Asma Farrell and Sinead Hines for Neurology
+Maureen Novak, Madina Carter and Julie Rubio for Pulmonology
+Finnian Gillespie, Simeon Middleton and Caio Orozco for Cardiology
+and Shaquille Dennis, Andrei Guevara and Leonie Daniels for Endocrinology.
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can I see a list of all departments?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can I see a list of all departments?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I would like to see all departments in our clinic
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can I see all departments in this clinic?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+Patient: Can I have all doctors?
+Chatbot: The doctors in our clinic are:
+Zaara Rosales, Bea Rowley and Herman Mcdowell for Orthopedy,
+Vivienne Bradshaw, Isaac Maguire and Derek Farmer for Oncology,
+Osian Connor, Garin Griffin and Cally Cardenas for Gynecology,
+Alberto Johns, Mohamed Webster and Francesco Blackwell for Dermatology,
+Alicja Osborn, Kelsie Martinez and Colleen Wall for Ophthalmology,
+Esha Hyde, Shiv Boyce and Qasim Samuels for Otolaryngology,
+Lacy Hampton, Asma Farrell and Sinead Hines for Neurology,
+Maureen Novak, Madina Carter and Julie Rubio for Pulmonology,
+Finnian Gillespie, Simeon Middleton and Caio Orozco for Cardiology,
+and Shaquille Dennis, Andrei Guevara and Leonie Daniels for Endocrinology.
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can you show me all departments in this clinic?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+Patient: I would like to have a list of all doctors.
+Chatbot: The doctors in our clinic are:
+Zaara Rosales, Bea Rowley and Herman Mcdowell for Orthopedy,
+Vivienne Bradshaw, Isaac Maguire and Derek Farmer for Oncology,
+Osian Connor, Garin Griffin and Cally Cardenas for Gynecology,
+Alberto Johns, Mohamed Webster and Francesco Blackwell for Dermatology,
+Alicja Osborn, Kelsie Martinez and Colleen Wall for Ophthalmology,
+Esha Hyde, Shiv Boyce and Qasim Samuels for Otolaryngology,
+Lacy Hampton, Asma Farrell and Sinead Hines for Neurology,
+Maureen Novak, Madina Carter and Julie Rubio for Pulmonology,
+Finnian Gillespie, Simeon Middleton and Caio Orozco for Cardiology,
+and Shaquille Dennis, Andrei Guevara and Leonie Daniels for Endocrinology.
+
+Patient: Can I make an appointment?
+Chatbot: The doctors in our clinic are:
+Zaara Rosales, Bea Rowley and Herman Mcdowell for Orthopedy,
+Vivienne Bradshaw, Isaac Maguire and Derek Farmer for Oncology,
+Osian Connor, Garin Griffin and Cally Cardenas for Gynecology,
+Alberto Johns, Mohamed Webster and Francesco Blackwell for Dermatology,
+Alicja Osborn, Kelsie Martinez and Colleen Wall for Ophthalmology,
+Esha Hyde, Shiv Boyce and Qasim Samuels for Otolaryngology,
+Lacy Hampton, Asma Farrell and Sinead Hines for Neurology,
+Maureen Novak, Madina Carter and Julie Rubio for Pulmonology,
+Finnian Gillespie, Simeon Middleton and Caio Orozco for Cardiology,
+and Shaquille Dennis, Andrei Guevara and Leonie Daniels for Endocrinology.
+
+Patient: I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Ophthalmology please,
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: Are you referring to dr. Maureen Novak ?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Ophthalmology.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: Are you referring to dr. Maureen Novak ?
+
+Patient: Yes.
+Chatbot: Are you referring to dr. Maureen Novak ?
+
+Patient: I want to make an appointment
+Chatbot: Are you referring to dr. Maureen Novak ?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment for Neurology.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: Are you referring to dr. Maureen Novak ?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: What services do you offer?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment at Ophthalmology.
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment for Neurology.
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: Yes
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment with doctor Madina Carter.
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want an appointment at pulmonology.
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want an appointment at Pulmonology.
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want an appointment at Pulmonology
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment for Neurology.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: NO
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: Oh, ok.
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: Oh, ok.
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: lacy hampton
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: ophthalmology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: The doctors working at the Ophthalmology department are: dr. Alicja Osborn, dr. Kelsie Martinez and dr. Colleen Wall.
+Which one would you like to make an appointment for?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment Carter
+Chatbot: Are you referring to dr. Madina Carter ?
+
+Patient: yes
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment novak
+Chatbot: Ok, which department would you like to go to?
+
+Patient: want make appointment Novak
+Chatbot: Are you referring to dr. Maureen Novak ?
+
+Patient: no
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment rowley
+Chatbot: Ok, which department would you like to go to?
+
+Patient: want make appointment Rowley
+Chatbot: Are you referring to dr. Bea Rowley ?
+
+Patient: yes
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: which doctors are in this clinic?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can you tell me which doctors are in this clinic?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can I make an appointment with dr Madina Carter?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can I make an appointment with Madina Carter?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Can I make an appointment with Madina CarteR?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment carter.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: want make appointment Carter.
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: quit
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: quit
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: quit
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: quit
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: quit
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: quit
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: quit
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: k
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: quit
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: quit
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Oncology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Oncology department are: dr. Vivienne Bradshaw, dr. Isaac Maguire and dr. Derek Farmer.
+Which one would you like to make an appointment for?
+
+Patient: Derek Farmer.
+Chatbot: Are you referring to dr. Derek Farmer ?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Asma Farrell please.
+Chatbot: Are you referring to dr. Asma Farrell ?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Can you show me the departments?
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Can you show me the departments?
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I would like to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Can you show me the departments?
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Can you show me the departments?
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I would like to make an appointment,
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Can you show me the departments?
+Chatbot: Ok, which department would you like to go to?
+
+Patient: quit
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Can you show me all departments?
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Can you show me the departments?
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello can I make an appointment?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hi, can I make an appointment?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hi, can I make an appointment?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hi, can I make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: quit
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hi, can I make an appointment?
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Can I see all departments?
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hi, can I make an appointment?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment.
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hi, can I make an appointment?
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Lacy Hampton please.
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hi, I want to make an appointment.
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hi, I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Sinead hines.
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, can I make an appointment?
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology with dr. Lacy Hampton.
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Can you show me the departments?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+Patient: Ok, cardiology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: Yes, dr. Simeon Middleton.
+Chatbot: Ok, which one?
+
+Patient: hello
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: Uhm, not really.
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to see all the doctors in this clinic.
+Chatbot: The doctors in our clinic are:
+Zaara Rosales, Bea Rowley and Herman Mcdowell for Orthopedy,
+Vivienne Bradshaw, Isaac Maguire and Derek Farmer for Oncology,
+Osian Connor, Garin Griffin and Cally Cardenas for Gynecology,
+Alberto Johns, Mohamed Webster and Francesco Blackwell for Dermatology,
+Alicja Osborn, Kelsie Martinez and Colleen Wall for Ophthalmology,
+Esha Hyde, Shiv Boyce and Qasim Samuels for Otolaryngology,
+Lacy Hampton, Asma Farrell and Sinead Hines for Neurology,
+Maureen Novak, Madina Carter and Julie Rubio for Pulmonology,
+Finnian Gillespie, Simeon Middleton and Caio Orozco for Cardiology,
+and Shaquille Dennis, Andrei Guevara and Leonie Daniels for Endocrinology.
+
+Patient: Ok, thank you. Can I make an appointment for doctor Caio Orozco?
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, can I get an appointment with dr. Finnian Gillespie?
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hi, can I get an appointment with doctor Gillespie?
+Chatbot: Are you referring to dr. Finnian Gillespie ?
+
+Patient: Yes.
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, may I have an appointment with dr. Orozco?
+Chatbot: 
+Patient: f
+Chatbot: 
+Patient: f
+Chatbot: 
+Patient: asdas
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, may I make an appointment with dr. Orozco?
+Chatbot: Are you referring to dr. Caio Orozco ?
+
+Patient: Yes.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: f
+Chatbot: Ok, which department would you like to go to?
+
+Patient: f
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, can I get an appointment with dr. Ozorco?
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Hello, can I get an appointment with dr. Orozco?
+Chatbot: Are you referring to dr. Caio Orozco ?
+
+Patient: yes
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, can I get an appointment with dr. Orozco?
+Chatbot: Are you referring to dr. Caio Orozco ?
+
+Patient: yes.
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment with dr. Dennis.
+Chatbot: Are you referring to dr. Shaquille Dennis ?
+
+Patient: Yes.
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Which departments do you have?
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Which departments do you have?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+Patient: Ok, I want to go to Pulmonology.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No.
+Chatbot: The doctors working at the Pulmonology department are: dr. Maureen Novak, dr. Madina Carter and dr. Julie Rubio.
+Which one would you like to make an appointment for?
+
+Patient: Julie Rubio please.
+Chatbot: 
+Patient: goodbye
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment for Ophthalmology.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No.
+Chatbot: The doctors working at the Ophthalmology department are: dr. Alicja Osborn, dr. Kelsie Martinez and dr. Colleen Wall.
+Which one would you like to make an appointment for?
+
+Patient: Dr. Wall please.
+Chatbot: 
+Patient: .
+Chatbot: 
+Patient: wall
+Chatbot: Are you referring to dr. Colleen Wall ?
+
+Patient: yes.
+Chatbot: Ok
+
+Patient: Rowely
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment with dr. webster.
+Chatbot: Are you referring to dr. Mohamed Webster ?
+
+Patient: No.
+Chatbot: Oh, ok.
+
+Patient: Can I see all doctors?
+Chatbot: The doctors in our clinic are:
+Zaara Rosales, Bea Rowley and Herman Mcdowell for Orthopedy,
+Vivienne Bradshaw, Isaac Maguire and Derek Farmer for Oncology,
+Osian Connor, Garin Griffin and Cally Cardenas for Gynecology,
+Alberto Johns, Mohamed Webster and Francesco Blackwell for Dermatology,
+Alicja Osborn, Kelsie Martinez and Colleen Wall for Ophthalmology,
+Esha Hyde, Shiv Boyce and Qasim Samuels for Otolaryngology,
+Lacy Hampton, Asma Farrell and Sinead Hines for Neurology,
+Maureen Novak, Madina Carter and Julie Rubio for Pulmonology,
+Finnian Gillespie, Simeon Middleton and Caio Orozco for Cardiology,
+and Shaquille Dennis, Andrei Guevara and Leonie Daniels for Endocrinology.
+
+Patient: I want to make an appointment with Andrei Guevara.
+Chatbot: 
