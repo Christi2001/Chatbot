@@ -1,11 +1,19 @@
 #ifndef PROCESSING_GUARD__H
 #define PROCESSING_GUARD__H
 
+#include <time.h>
 #include "appointments.h"
+
+#define SEC_IN_DAY 86400
+
 char words[100][20];
 Appointment current_appointment;
 char* temp_doc_name;
 char* temp_dep;
+char* temp_date;
+int temp_weekday;
+char* temp_time;
+time_t temp_sec;
 
 /**
  * Takes a string as input and saves it in chatlog.txt. Then it turns it to lowercase 
@@ -26,10 +34,10 @@ char* process_input(char* string);
 int split_string(char* string);
 
 /**
- * Compares a string with every deparment in the "department" array 
+ * Compares a department with every deparment in the "department" array 
  * and if found, saves it in "current_appointment" struct.
  * 
- * @param dep The string that will be compared
+ * @param dep The department that will be compared
  * @return 0 if it has found a department or 1 if not
  */
 int search_for_department(char* dep);
@@ -66,49 +74,81 @@ int search_for_intent_in_word(char* word);
  * Searches a string for a phrase in a list of phrases representing intent.
  * 
  * @param string The string to be searched
- * @return 0 if it has found a phrase in the list or 1 if not
+ * @return 0 if it has found intent in the string or 1 if not
  */
 int search_for_intent_in_string(char* string);
 
+/**
+ * Searches a string for the "?" sign and for a phrase in a list of phrases representing a question.
+ * 
+ * @param string The string to be searched
+ * @return 0 if it contains question or 1 if not
+ */
 int search_for_question(char* string);
 
+/**
+ * Searches a string for a phrase in a list of phrases representing a request.
+ * 
+ * @param string The string to be searched
+ * @return 0 if it has found a request in the string or 1 if not
+ */
 int search_for_request(char* string);
 
 /**
- * Searches an array of strings for any occurence of a date.
+ * Searches a string for a date in mixed format, such as "the 1st of May".
+ * If found, it saves it in a global variable (temp_date).
  * 
- * @param array_of_strings The array of strings that will be searched
- * @param date The date to search for
- * @return 0 if it has found a date or 1 if not
+ * @param string The string to be searched
+ * @return 0 if it has found a date in the string or 1 if not
  */
-int search_for_date(char* array_of_strings, char* date);
+int search_for_date(char* string);
 
 /**
- * Searches an array of strings for any occurence of a weekday.
+ * Searches a string for a date in formats, such as: "tomorrow", 
+ * "the day after tomorrow", "on Tuesday in 3 weeks", "in 5 days", 
+ * or "next Friday".
+ * If found, it saves it in a global variable (temp_date).
  * 
- * @param array_of_strings The array of strings that will be searched
- * @param weekday The day of the week to search for
- * @return 0 if it has found a weekday or 1 if not
+ * @param string The string to be searched
+ * @return 0 if it has found a date in the string or 1 if not
  */
-int search_for_weekday(char* array_of_strings, char* weekday);
+int search_for_date_phrase(char* string);
 
 /**
- * Searches an array of strings for any occurence of time.
+ * Compares a word with a numeric format of date ("01.05.2001").
+ * If found, it saves it in a global variable (temp_date).
  * 
- * @param array_of_strings The array of strings that will be searched
- * @param time The time to search for
- * @return 0 if it has found a date or 1 if not
+ * @param word The word to be compared
+ * @return 0 if it has found a date in the string or 1 if not
  */
-int search_for_time(char* array_of_strings, char* time);
+int search_for_date_numeric(char* word);
 
 /**
- * Searches an array of strings for a given keyword.
+ * Compares a word with a numeric format of time ("12:30")
+ * If found, it saves it in a global variable (temp_time).
  * 
- * @param array_of_strings The array of strings that will be searched
- * @param keyword A keyword that will be searched for
- * @return 0 if it has found the keyword or 1 if not
+ * @param word The word to be compared
+ * @return 0 if it has found a date in the string or 1 if not
  */
-int search_for_keyword(char* array_of_strings, char* keyword);
+int search_for_time(char* word);
+
+/**
+ * Searches a string for a time in mixed format, such as: 
+ * "at 12 o'clock", "half past 9", "at 11" or "at 14 and a half".
+ * If found, it saves it in a global variable (temp_time).
+ * 
+ * @param string The string to be searched
+ * @return 0 if it has found a date in the string or 1 if not
+ */
+int search_for_time_phrase(char* string);
+
+/**
+ * Compares a word with "pm".
+ * 
+ * @param word The word to be compared
+ * @return 0 if the word is "pm" or 1 if not
+ */
+int search_for_pm(char* word);
 
 /**
  * Saves a string in "chatlog.txt".

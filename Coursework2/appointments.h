@@ -57,7 +57,7 @@ int Current_num_appointments;
  * 
  * @return String of 3 characters representing the current weekday
  */
-char* current_day();
+struct tm current_day();
 
 long int string_to_sec(char* str);
 

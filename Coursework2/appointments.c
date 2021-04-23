@@ -13,12 +13,12 @@ char hours[24][6] = {"08:00\0", "08:30\0", "09:00\0", "09:30\0", "10:00\0", "10:
                     "17:00\0", "17:30\0", "18:00\0", "18:30\0", "19:00\0", "19:30\0"};
 
 
-char* current_day()
+struct tm current_day()
 {
     time_t t = time(NULL);
     struct tm tm = *localtime(&t);
-    printf("now: %s %02d-%02d-%d %02d:%02d:%02d\n", Weekday[tm.tm_wday], tm.tm_mday, tm.tm_mon + 1, tm.tm_year + 1900, tm.tm_hour, tm.tm_min, tm.tm_sec);
-    return Weekday[tm.tm_wday];
+    // printf("now: %s %02d-%02d-%d %02d:%02d:%02d\n", Weekday[tm.tm_wday], tm.tm_mday, tm.tm_mon + 1, tm.tm_year + 1900, tm.tm_hour, tm.tm_min, tm.tm_sec);
+    return tm;
 
     // return NULL;
 }

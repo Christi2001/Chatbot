@@ -10,12 +10,6 @@
 // Appointments Module
 //---------------------------------------------------------------------------------------
 
-void test_current_day() {
-	char* day = (char*) malloc(4 * sizeof(char));
-	day = current_day();
-	TEST_ASSERT_EQUAL_STRING("Mon", day);
-}
-
 void test_string_to_sec() {
 	time_t t = string_to_sec("17.06.2021");
 	struct tm tm = string_to_tm("17.06.2021");
@@ -161,6 +155,166 @@ void test_search_for_intent_in_string() {
 
 }
 
+void test_search_for_question() {
+	TEST_ASSERT_EQUAL_INT(0, search_for_question("Which doctors are working at Neurology?"));
+	TEST_ASSERT_EQUAL_INT(0, search_for_question("When is dr. Webster free?"));
+	TEST_ASSERT_EQUAL_INT(0, search_for_question("Ok, when is dr. Webster free?"));
+	TEST_ASSERT_EQUAL_INT(0, search_for_question("Hello, which doctors are working at Cardiology?"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_question("I want to make an appointment?"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_question("Can I make an appointment."));
+}
+
+void test_search_for_request() {
+	TEST_ASSERT_EQUAL_INT(0, search_for_request("Can I see the services you provide?"));
+	TEST_ASSERT_EQUAL_INT(0, search_for_request("Please show me a list of the doctors working here."));
+	TEST_ASSERT_EQUAL_INT(0, search_for_request("Can I have the services you provide?"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_request("Me show the services you provide."));
+	TEST_ASSERT_EQUAL_INT(1, search_for_request("Can I seefsd the services you provide?"));
+}
+
+void test_search_for_date() {
+	temp_date = (char*) malloc(11*sizeof(char));
+	TEST_ASSERT_EQUAL_INT(0, search_for_date("1st may"));
+	TEST_ASSERT_EQUAL_STRING("01.05.2021", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date("january 1st"));
+	TEST_ASSERT_EQUAL_STRING("01.01.2022", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date("31st December"));
+	TEST_ASSERT_EQUAL_STRING("31.12.2021", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date("23rd of January"));
+	TEST_ASSERT_EQUAL_STRING("23.01.2022", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date("on the Twenty-second of March"));
+	TEST_ASSERT_EQUAL_STRING("22.03.2022", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date("May first"));
+	TEST_ASSERT_EQUAL_STRING("01.05.2021", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date("june 3"));
+	TEST_ASSERT_EQUAL_STRING("03.06.2021", temp_date);
+	free(temp_date);
+}
+
+void test_search_for_date_phrase() {
+	temp_date = (char*) malloc(11*sizeof(char));
+	struct tm today = current_day();
+    time_t today_sec = mktime(&today);
+	time_t t_sec;
+	struct tm today_plus;
+	char today_date[11];
+
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_phrase("I want an appointment Tomorrow"));
+	time_t tomorrow = today_sec + 1*SEC_IN_DAY;
+	today_plus = *localtime(&tomorrow);
+	strftime(today_date, 11, "%d.%m.%Y", &today_plus);
+	TEST_ASSERT_EQUAL_STRING(today_date, temp_date);
+	
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_phrase("Can I come the day after tomorrow"));
+	tomorrow = today_sec + 2*SEC_IN_DAY;
+	today_plus = *localtime(&tomorrow);
+	strftime(today_date, 11, "%d.%m.%Y", &today_plus);
+	TEST_ASSERT_EQUAL_STRING(today_date, temp_date);
+
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_phrase("I would like to come in 3 days"));
+	tomorrow = today_sec + 3*SEC_IN_DAY;
+	today_plus = *localtime(&tomorrow);
+	strftime(today_date, 11, "%d.%m.%Y", &today_plus);
+	TEST_ASSERT_EQUAL_STRING(today_date, temp_date);
+	
+	if(today.tm_wday > 0)
+        today_sec = today_sec - today.tm_wday*SEC_IN_DAY;
+	t_sec = today_sec;
+
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_phrase("I want an appointment on tuesday in 2 weeks."));
+	today_sec = t_sec + (2*7+2)*SEC_IN_DAY;
+	today_plus = *localtime(&today_sec);
+	strftime(today_date, 11, "%d.%m.%Y", &today_plus);
+	TEST_ASSERT_EQUAL_STRING(today_date, temp_date);
+
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_phrase("In 4 weeks on Sunday"));
+	today_sec = mktime(&today);
+	today_sec = t_sec + (4*7+7)*SEC_IN_DAY;
+	today_plus = *localtime(&today_sec);
+	strftime(today_date, 11, "%d.%m.%Y", &today_plus);
+	TEST_ASSERT_EQUAL_STRING(today_date, temp_date);
+	
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_phrase("in 3 weeks saturday"));
+	today_sec = t_sec + (3*7+6)*SEC_IN_DAY;
+	today_plus = *localtime(&today_sec);
+	strftime(today_date, 11, "%d.%m.%Y", &today_plus);
+	TEST_ASSERT_EQUAL_STRING(today_date, temp_date);
+	
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_phrase("next tuesday"));
+	today_sec = t_sec + (7+2)*SEC_IN_DAY;
+	today_plus = *localtime(&today_sec);
+	strftime(today_date, 11, "%d.%m.%Y", &today_plus);
+	TEST_ASSERT_EQUAL_STRING(today_date, temp_date);
+
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_phrase("Next week on Friday"));
+	today_sec = t_sec + (7+5)*SEC_IN_DAY;
+	today_plus = *localtime(&today_sec);
+	strftime(today_date, 11, "%d.%m.%Y", &today_plus);
+	TEST_ASSERT_EQUAL_STRING(today_date, temp_date);
+
+	free(temp_date);
+}
+
+void test_search_for_date_numeric() {
+	temp_date = (char*) malloc(11*sizeof(char));
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_numeric("12.03.2021"));
+	TEST_ASSERT_EQUAL_STRING("12.03.2021", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_numeric("12-03-2021"));
+	TEST_ASSERT_EQUAL_STRING("12.03.2021", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_numeric("12/03/2021"));
+	TEST_ASSERT_EQUAL_STRING("12.03.2021", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_numeric("12.03.21"));
+	TEST_ASSERT_EQUAL_STRING("12.03.2021", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_numeric("12-03-21"));
+	TEST_ASSERT_EQUAL_STRING("12.03.2021", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_numeric("12/03/21"));
+	TEST_ASSERT_EQUAL_STRING("12.03.2021", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_numeric("1.3.2021"));
+	TEST_ASSERT_EQUAL_STRING("01.03.2021", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_numeric("1.12.2021"));
+	TEST_ASSERT_EQUAL_STRING("01.12.2021", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_numeric("12/3/2021"));
+	TEST_ASSERT_EQUAL_STRING("12.03.2021", temp_date);
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_numeric("1-3-21"));
+	TEST_ASSERT_EQUAL_STRING("01.03.2021", temp_date);
+	TEST_ASSERT_EQUAL_INT(1, search_for_date_numeric("12032021"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_date_numeric("1321"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_date_numeric("1.3.2"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_date_numeric("ab.cd.efgh"));
+	free(temp_date);
+}
+
+void test_search_for_time() {
+	temp_time = (char*) malloc(6*sizeof(char));
+	TEST_ASSERT_EQUAL_INT(0, search_for_time("15:30"));
+	TEST_ASSERT_EQUAL_STRING("15:30", temp_time);
+	TEST_ASSERT_EQUAL_INT(0, search_for_time("6:00"));
+	TEST_ASSERT_EQUAL_STRING("06:00", temp_time);
+	TEST_ASSERT_EQUAL_INT(1, search_for_time("126:00"));
+	TEST_ASSERT_EQUAL_INT(1, search_for_time("07:000"));
+	free(temp_time);
+}
+
+void test_search_for_time_phrase() {
+	temp_time = (char*) malloc(6*sizeof(char));
+	TEST_ASSERT_EQUAL_INT(0, search_for_time_phrase("tomorrow at 9"));
+	TEST_ASSERT_EQUAL_STRING("09:00", temp_time);
+	TEST_ASSERT_EQUAL_INT(0, search_for_time_phrase("Can I come at 12?"));
+	TEST_ASSERT_EQUAL_STRING("12:00", temp_time);
+	TEST_ASSERT_EQUAL_INT(0, search_for_time_phrase("I'm going to be there at 8 o'clock"));
+	TEST_ASSERT_EQUAL_STRING("08:00", temp_time);
+	TEST_ASSERT_EQUAL_INT(0, search_for_time_phrase("At 16 o'clock!"));
+	TEST_ASSERT_EQUAL_STRING("16:00", temp_time);
+	TEST_ASSERT_EQUAL_INT(0, search_for_time_phrase("At 15 and a half"));
+	TEST_ASSERT_EQUAL_STRING("15:30", temp_time);
+	TEST_ASSERT_EQUAL_INT(0, search_for_time_phrase("Can I come at half past 11?"));
+	TEST_ASSERT_EQUAL_STRING("11:30", temp_time);
+	TEST_ASSERT_EQUAL_INT(0, search_for_time_phrase("Can I come at half past 19?"));
+	TEST_ASSERT_EQUAL_STRING("19:30", temp_time);
+	TEST_ASSERT_EQUAL_INT(1, search_for_time_phrase("I can come at 25 o'clock"));
+	free(temp_time);
+}
+
 //---------------------------------------------------------------------------------------
 // Replies Module
 //---------------------------------------------------------------------------------------
@@ -177,7 +331,6 @@ int main() {
 	UNITY_BEGIN();
 
 	// Appointments Module
-	// RUN_TEST(test_current_day);
 	RUN_TEST(test_string_to_sec);
 	RUN_TEST(test_string_to_tm);
 	// RUN_TEST(test_check_availability);
@@ -189,7 +342,13 @@ int main() {
 	RUN_TEST(test_search_for_doctor_by_one_name);
 	RUN_TEST(test_search_for_intent_in_word);
 	RUN_TEST(test_search_for_intent_in_string);
-	// RUN_TEST(test_);
+	RUN_TEST(test_search_for_question);
+	RUN_TEST(test_search_for_request);
+	RUN_TEST(test_search_for_date);
+	RUN_TEST(test_search_for_date_phrase);
+	RUN_TEST(test_search_for_date_numeric);
+	RUN_TEST(test_search_for_time);
+	RUN_TEST(test_search_for_time_phrase);
 
 	return UNITY_END();
 }

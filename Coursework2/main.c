@@ -56,6 +56,8 @@ int main()
 
     temp_doc_name = (char*) malloc(30*sizeof(char));
     temp_dep = (char*) malloc(20*sizeof(char));
+    temp_date = (char*) malloc(11*sizeof(char));
+    temp_sec = 0;
     
     load_appointments();
     load_doctors();
