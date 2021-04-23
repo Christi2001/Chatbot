@@ -1276,3 +1276,52 @@ and Shaquille Dennis, Andrei Guevara and Leonie Daniels for Endocrinology.
 
 Patient: I want to make an appointment with Andrei Guevara.
 Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: 1st of may
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: 1st of may
+Chatbot: 
+Patient: may 1st
+Chatbot: 
+Patient: may 1st 
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Lacy Hampton please.
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Lacy Hampton please.
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
