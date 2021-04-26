@@ -2130,3 +2130,2229 @@ Chatbot: Dr. Caio Orozco is available on 27.04.2021 at the following hours:
 15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
 What time do you prefer?
 
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: 
+Patient: f
+Chatbot: 
+Patient: f
+Chatbot: 
+Patient: no
+Chatbot: 
+Patient: no
+Chatbot: 
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: yes, Lacy Hampton please.
+Chatbot: Ok, when would you like to come?
+
+Patient: tomorrow
+Chatbot: Dr. Lacy Hampton is not available on 28.04.2021, but is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: 16:30
+Chatbot: Dr. Lacy Hampton is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: k
+Chatbot: Dr. Lacy Hampton is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: k
+Chatbot: Dr. Lacy Hampton is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: k
+Chatbot: Dr. Lacy Hampton is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: k
+Chatbot: Dr. Lacy Hampton is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: LAcy Hampton.
+Chatbot: Ok, when would you like to come?
+
+Patient: Tomorrow
+Chatbot: Dr. Lacy Hampton is not available on 28.04.2021, but is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: 19:00
+Chatbot: Dr. Lacy Hampton is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment lacy hampton
+Chatbot: Ok, when would you like to come?
+
+Patient: tomorrow
+Chatbot: Dr. Lacy Hampton is not available on 28.04.2021, but is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment lacy hampton
+Chatbot: Ok, when would you like to come?
+
+Patient: tomorrow
+Chatbot: Dr. Lacy Hampton is not available on 27.04.2021, but is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: 18:00
+Chatbot: Dr. Lacy Hampton is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: at 15 o'clock
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+What is your name?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment lacy hampton
+Chatbot: Ok, when would you like to come?
+
+Patient: the day after tomorrow
+Chatbot: Dr. Lacy Hampton is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: 15:00
+Chatbot: Dr. Lacy Hampton is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: at 15
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+What is your name?
+
+Patient: Pustianu Christian
+Chatbot: Ok, what is your email address?
+
+Chatbot: Invalid email! Please try again:
+
+Patient: pustianuchristian@yahoo.com
+Chatbot: Your telephone number please.
+
+Patient: 0735851024
+Chatbot: How old are you?
+
+Patient: 19
+Chatbot: Here is a recap of the details you gave me:
+Name: pustianu christian
+Email: pustianuchristian@yahoo.com
+Tel: 0735851024
+Age: 19
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 28.04.2021
+Weekday: Wed
+Time: 15:00
+
+Patient: ok
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+What is your name?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment lacy hampton
+Chatbot: Ok, when would you like to come?
+
+Patient: in a week
+Chatbot: Ok, when would you like to come?
+
+Patient: in 2 weeks
+Chatbot: Ok, when would you like to come?
+
+Patient: in a week on friday
+Chatbot: Dr. Lacy Hampton is available on 07.05.2021 at the following hours:
+10:00	10:30	11:00	11:30	14:00	14:30	15:00	15:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: at 10:00
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+What is your name?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment lacy hampton
+Chatbot: Ok, when would you like to come?
+
+Patient: in 4 days
+Chatbot: Dr. Lacy Hampton is available on 30.04.2021 at the following hours:
+10:00	10:30	11:00	11:30	14:00	14:30	15:00	15:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: 10:00
+Chatbot: Dr. Lacy Hampton is available on 30.04.2021 at the following hours:
+10:00	10:30	11:00	11:30	14:00	14:30	15:00	15:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: 10:30
+Chatbot: Dr. Lacy Hampton is available on 30.04.2021 at the following hours:
+10:00	10:30	11:00	11:30	14:00	14:30	15:00	15:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: at 10:40
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+What is your name?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment lacy hampton
+Chatbot: Ok, when would you like to come?
+
+Patient: 15.05.2021
+Chatbot: Ok, when would you like to come?
+
+Patient: 1.5.2021
+Chatbot: Ok, when would you like to come?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment lacy hampton
+Chatbot: Ok, when would you like to come?
+
+Patient: 15.05.2021
+Chatbot: Ok, when would you like to come?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: lacy hampton
+Chatbot: Ok, when would you like to come?
+
+Patient: 27.04.2021
+Chatbot: Dr. Lacy Hampton is not available on 27.04.2021, but is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: 15:00
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+What is your name?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment for next Tuesday
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Cardiology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: 
+Patient: f
+Chatbot: 
+Patient: f
+Chatbot: 
+Patient: fd
+Chatbot: 
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment with dr. Hampton
+Chatbot: Ok, which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment with dr. Hampton.
+Chatbot: Ok, which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment with dr. Hampton
+Chatbot: Ok, which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: quit
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment hampton
+Chatbot: Are you referring to dr. Lacy Hampton ?
+
+Patient: yes
+Chatbot: Ok, which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: quit
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment with dr. Hampton
+Chatbot: Are you referring to dr. Lacy Hampton ?
+
+Patient: yes
+Chatbot: Ok, when would you like to come?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment with dr. Hampton.
+Chatbot: Are you referring to dr. Lacy Hampton ?
+
+Patient: No
+Chatbot: Ok, which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment with dr. Hampton.
+Chatbot: Are you referring to dr. Lacy Hampton ?
+Which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment with dr. Hampton.
+Chatbot: Are you referring to dr. Lacy Hampton?
+
+Patient: Yes.
+Chatbot: When would you like to come?
+
+Patient: Can I come in 2 weeks on Friday?
+Chatbot: Dr. Lacy Hampton is available on 14.05.2021 at the following hours:
+10:00	10:30	11:00	11:30	14:00	14:30	15:00	15:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: Hmm, I guess 10:30.
+Chatbot: Dr. Lacy Hampton is available on 14.05.2021 at the following hours:
+10:00	10:30	11:00	11:30	14:00	14:30	15:00	15:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: Hmm, I guess 10:30
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+What is your name?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I want to make an appointment with dr. Hampton.
+Chatbot: Are you referring to dr. Lacy Hampton?
+
+Patient: Yes.
+Chatbot: When would you like to come?
+
+Patient: In 2 weeks on Friday.
+Chatbot: Dr. Lacy Hampton is available on 14.05.2021 at the following hours:
+10:00	10:30	11:00	11:30	14:00	14:30	15:00	15:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: Hmm, I guess 10:30.
+Chatbot: That is not a valid hour! Try again!
+
+Patient: Bye
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment with dr. Hampton.
+Chatbot: Are you referring to dr. Lacy Hampton?
+
+Patient: Yes.
+Chatbot: When would you like to come?
+
+Patient: In two weeks on Thursday.
+Chatbot: When would you like to come?
+
+Patient: In 2 weeks on Thursday.
+Chatbot: Dr. Lacy Hampton is not available on 13.05.2021, but is available on 14.05.2021 at the following hours:
+10:00	10:30	11:00	11:30	14:00	14:30	15:00	15:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: 10:30.
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+What is your name?
+
+Patient: Christian Pustianu
+Chatbot: Ok, what is your email address?
+
+Patient: pustianuchristian@yahoo.com
+Chatbot: Your telephone number please.
+
+Patient: 0735851024
+Chatbot: How old are you?
+
+Patient: 19
+Chatbot: Here is a recap of the details you gave me:
+Name: Christian Pustianu
+Email: pustianuchristian@yahoo.com
+Tel: 0735851024
+Age: 19
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 14.05.2021
+Weekday: Fri
+Time: 10:30
+Is the information correct?
+
+Patient: hYes.
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+What is your name?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment hampton
+Chatbot: Are you referring to dr. Lacy Hampton?
+
+Patient: yes
+Chatbot: When would you like to come?
+
+Patient: 20.05.2021.
+Chatbot: Dr. Lacy Hampton is not available on 20.05.2021, but is available on 21.05.2021 at the following hours:
+10:00	10:30	11:00	11:30	14:00	14:30	15:00	15:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment hampton.
+Chatbot: Are you referring to dr. Lacy Hampton?
+
+Patient: Yes.
+Chatbot: When would you like to come?
+
+Patient: Tomorrow at 10:30.
+Chatbot: That is not a valid hour! Try again!
+
+Patient: Tomorrow
+Chatbot: That is not a valid hour! Try again!
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment neurology
+Chatbot: Do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: 
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment
+Chatbot: Which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Mohamed Webster.
+Chatbot: Dr. Mohamed Webster does not work for the Neurology department!
+
+Patient: Ok, Lacy Hampton.
+Chatbot: When would you like to come?
+
+Patient: Tomorrow.
+Chatbot: Dr. Lacy Hampton is not available on 27.04.2021, but is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: 19:30.
+Chatbot: That is not a valid hour! Try again!
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointmnet.
+Chatbot: 
+Patient: Hello, I want to make an appointment.
+Chatbot: Which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Do you know which doctor you would like to see?
+
+Patient: Yes
+Chatbot: OK, which one?
+
+Patient: Mohamed Webster.
+Chatbot: Dr. Mohamed Webster does not work for the Neurology department!
+
+Patient: Oh, ok, then which doctors work for this department?
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Lacy Hampton please.
+Chatbot: When would you like to come?
+
+Patient: On 15.05.2021.
+Chatbot: Dr. Lacy Hampton is not available on 15.05.2021, but is available on 17.05.2021 at the following hours:
+08:00	08:30	09:00	09:30	10:00	10:30	11:00	11:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: Half past 9 please.
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+What is your name?
+
+Patient: Christian Pustianu
+Chatbot: Ok, what is your email address?
+
+Chatbot: Invalid email! Please try again:
+
+Patient: pustianuchristian@yahoo.com
+Chatbot: Your telephone number please.
+
+Chatbot: Invalid telephone number! Please only enter digits:
+
+Chatbot: Invalid telephone number! Please only enter digits:
+
+Chatbot: Invalid telephone number! Please only enter digits:
+
+Chatbot: Invalid telephone number! Please only enter digits:
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I want to make an apdpd 
+Chatbot: I am unsure of what you meant by that...
+
+Patient: I want to make an appointment.
+Chatbot: Which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: I wnat to make an appointment
+Chatbot: OK. Which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, can I get an appointment?
+Chatbot: OK. Which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want an appointment.
+Chatbot: OK. Which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want an appointmnet.
+Chatbot: Sorry, I didn't quite catch that...
+
+Patient: appointment
+Chatbot: Hmm, I'm not sure...
+
+Patient: I want an appointment
+Chatbot: OK. Which department would you like to go to?
+
+Patient: Can I see what departments do you have?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+Patient: What are your departments?
+Chatbot: Which department would you like to go to?
+
+Patient: What are your departments?
+Chatbot: Which department would you like to go to?
+
+Patient: Can I have a list of departments?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+Patient: can I see all departments?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+Patient: What departments?
+Chatbot: Which department would you like to go to?
+
+Patient: What are your services?
+Chatbot: Which department would you like to go to?
+
+Patient: which services?
+Chatbot: Which department would you like to go to?
+
+Patient: what services ?
+Chatbot: Which department would you like to go to?
+
+Patient: list of services
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+Patient: Can I see your services?
+Chatbot: Which department would you like to go to?
+
+Patient: Can I see services
+Chatbot: Which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: what are your services?
+Chatbot: Hmm, I'm not sure...
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: What are your services?
+Chatbot: I am unsure of what you meant by that...
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: What are your services?
+Chatbot: I am unsure of what you meant by that...
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: What are your services?
+Chatbot: ,ï¿½ï¿½U
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: What are your departments?
+Chatbot: Sorry, I didn't quite catch that...
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: What are your services?
+Chatbot: I am unsure of what you meant by that...
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: What are your services?
+Chatbot: I am unsure of what you meant by that...
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: What are your services?
+Chatbot: Sorry, I didn't quite catch that...
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: What are your services?
+Chatbot: ,%ï¿½1ï¿½U
+Patient: what are your services?
+Chatbot: Hmm, I'm not sure...
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: What are your services?
+Chatbot: 
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: What are your services?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: What are your services?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: What are the departments in your clinic?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment.
+Chatbot: OK. Which department would you like to go to?
+
+Patient: Please show me all departments?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+Patient: Ok, I want to go to ophthalmology.
+Chatbot: Do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Ophthalmology department are: dr. Alicja Osborn, dr. Kelsie Martinez and dr. Colleen Wall.
+Which one would you like to make an appointment for?
+
+Patient: Mohamed Webster.
+Chatbot: Dr. Mohamed Webster does not work for the Ophthalmology department!
+
+Patient: Okay, dr. Osborn then.
+Chatbot: Hmm, I'm not sure...
+
+Patient: f
+Chatbot: Sorry, I didn't quite catch that...
+
+Patient: f
+Chatbot: Hmm, I'm not sure...
+
+Patient: Alicja Osborn
+Chatbot: When would you like to come?
+
+Patient: Next Monday.
+Chatbot: Dr. Alicja Osborn is available on 03.05.2021 at the following hours:
+08:00	08:30	09:00	09:30	10:00	10:30	11:00	11:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: 10:30.
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+What is your name?
+
+Patient: Christian Pustianu
+Chatbot: Ok, what is your email address?
+
+Patient: pustianuchristian
+Chatbot: Invalid email! Please try again:
+
+Patient: pustianuchristian@yahoo.com
+Chatbot: Your telephone number please.
+
+Patient: fsdf
+Chatbot: Invalid telephone number! Please only enter digits:
+
+Patient: 0735851024
+Chatbot: How old are you?
+
+Patient: 190
+Chatbot: Here is a recap of the details you gave me:
+Name: Christian Pustianu
+Email: pustianuchristian@yahoo.com
+Tel: 0735851024
+Age: 190
+Department: Ophthalmology
+Doctor: Alicja Osborn
+Date: 03.05.2021
+Weekday: Mon
+Time: 10:30
+Is the information correct?
+
+Patient: no
+Chatbot: The doctors working at the Ophthalmology department are: dr. Alicja Osborn, dr. Kelsie Martinez and dr. Colleen Wall.
+Which one would you like to make an appointment for?
+
+Patient: quit
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment.
+Chatbot: OK. Which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Do you know which doctor you would like to see?
+
+Patient: Not really.
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Dr. Mohamed Webster.
+Chatbot: Dr. Mohamed Webster does not work for the Neurology department!
+
+Patient: Dr. Lacy Hampton please.
+Chatbot: When would you like to come?
+
+Patient: In 3 days.
+Chatbot: Dr. Lacy Hampton is not available on 29.04.2021, but is available on 30.04.2021 at the following hours:
+10:00	10:30	11:00	11:30	14:00	14:30	15:00	15:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: 14:30.
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: What is your name?
+
+Patient: Christian Pustianu
+Chatbot: OK, what is your email address?
+
+Patient: pustianuchristian@yahoo.com
+Chatbot: Your telephone number please.
+
+Patient: 0735851024
+Chatbot: How old are you?
+
+Patient: 19
+Chatbot: Here is a recap of the details you gave me:
+Name: Christian Pustianu
+Email: pustianuchristian@yahoo.com
+Tel: 0735851024
+Age: 19
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 30.04.2021
+Weekday: Fri
+Time: 14:30
+Is the information correct? (If not, tell me what to change!)
+
+Patient: hYes.
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: Here is a recap of the details you gave me:
+Name: Christian Pustianu
+Email: pustianuchristian@yahoo.com
+Tel: 0735851024
+Age: 19
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 30.04.2021
+Weekday: Fri
+Time: 14:30
+Is the information correct? (If not, tell me what to change!)
+
+Patient: yes
+Chatbot: <V
+Patient: .
+Chatbot: Sorry, I didn't quite catch that...
+
+Patient: d
+Chatbot: Hmm, I'm not sure...
+
+Patient: Ok, Bye!
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment.
+Chatbot: OK. Which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Do you know which doctor you would like to see?
+
+Patient: Yes.
+Chatbot: OK, which one?
+
+Patient: mohamed webster.
+Chatbot: Dr. Mohamed Webster does not work for the Neurology department!
+
+Patient: Lacy Hampton then.
+Chatbot: When would you like to come?
+
+Patient: In 4 days.
+Chatbot: Dr. Lacy Hampton is available on 30.04.2021 at the following hours:
+10:00	10:30	11:00	11:30	14:00	14:30	15:00	15:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: 15:00
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: What is your name?
+
+Patient: Christian Pustianu.
+Chatbot: OK, what is your email address?
+
+Patient: pustianuchristian@yahoo.com
+Chatbot: Your telephone number please.
+
+Patient: 0735851024
+Chatbot: How old are you?
+
+Patient: 19
+Chatbot: Here is a recap of the details you gave me:
+Name: Christian Pustianu.
+Email: pustianuchristian@yahoo.com
+Tel: 0735851024
+Age: 19
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 30.04.2021
+Weekday: Fri
+Time: 15:00
+Is the information correct? (If not, tell me what to change!)
+
+Patient: tNo
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: Here is a recap of the details you gave me:
+Name: Christian Pustianu.
+Email: pustianuchristian@yahoo.com
+Tel: 0735851024
+Age: 19
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 30.04.2021
+Weekday: Fri
+Time: 15:00
+Is the information correct? (If not, tell me what to change!)
+
+Patient: No, the age is wrong.
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: How old are you?
+
+Patient: 18
+Chatbot: Here is a recap of the details you gave me:
+Name: Christian Pustianu.
+Email: pustianuchristian@yahoo.com
+Tel: 0735851024
+Age: 18
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 30.04.2021
+Weekday: Fri
+Time: 15:00
+Is the information correct? (If not, tell me what to change!)
+
+Patient: tNo, the email is wrong.
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: OK, what is your email address?
+
+Patient: pc@yahoo.com
+Chatbot: Here is a recap of the details you gave me:
+Name: Christian Pustianu.
+Email: pc@yahoo.com
+Tel: 0735851024
+Age: 18
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 30.04.2021
+Weekday: Fri
+Time: 15:00
+Is the information correct? (If not, tell me what to change!)
+
+Patient: (yes.
+Chatbot: Do you need help with anything else?
+
+Patient: Yes, can you show me a list of all departments?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+Patient: Can I see a list of all doctors?
+Chatbot: The doctors in our clinic are:
+Zaara Rosales, Bea Rowley and Herman Mcdowell for Orthopedy,
+Vivienne Bradshaw, Isaac Maguire and Derek Farmer for Oncology,
+Osian Connor, Garin Griffin and Cally Cardenas for Gynecology,
+Alberto Johns, Mohamed Webster and Francesco Blackwell for Dermatology,
+Alicja Osborn, Kelsie Martinez and Colleen Wall for Ophthalmology,
+Esha Hyde, Shiv Boyce and Qasim Samuels for Otolaryngology,
+Lacy Hampton, Asma Farrell and Sinead Hines for Neurology,
+Maureen Novak, Madina Carter and Julie Rubio for Pulmonology,
+Finnian Gillespie, Simeon Middleton and Caio Orozco for Cardiology,
+and Shaquille Dennis, Andrei Guevara and Leonie Daniels for Endocrinology.
+
+Patient: okay thank you. Goodbye!
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, can I make an appointment?
+Chatbot: OK. Which department would you like to go to?
+
+Patient: What departments do you have?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+Patient: Cardiology please.
+Chatbot: Do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Cardiology department are: dr. Finnian Gillespie, dr. Simeon Middleton and dr. Caio Orozco.
+Which one would you like to make an appointment for?
+
+Patient: Dr. Orozco.
+Chatbot: Are you referring to dr. Caio Orozco?
+
+Patient: Yes.
+Chatbot: OK. When would you like to come?
+
+Patient: In 4 days.
+Chatbot: Dr. Caio Orozco is not available on 30.04.2021, but is available on 03.05.2021 at the following hours:
+08:00	08:30	09:00	09:30	10:00	10:30	11:00	11:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: f
+Chatbot: Dr. Caio Orozco is available on 03.05.2021 at the following hours:
+08:00	08:30	09:00	09:30	10:00	10:30	11:00	11:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: Can I see all doctors?
+Chatbot: The doctors in our clinic are:
+Zaara Rosales, Bea Rowley and Herman Mcdowell for Orthopedy,
+Vivienne Bradshaw, Isaac Maguire and Derek Farmer for Oncology,
+Osian Connor, Garin Griffin and Cally Cardenas for Gynecology,
+Alberto Johns, Mohamed Webster and Francesco Blackwell for Dermatology,
+Alicja Osborn, Kelsie Martinez and Colleen Wall for Ophthalmology,
+Esha Hyde, Shiv Boyce and Qasim Samuels for Otolaryngology,
+Lacy Hampton, Asma Farrell and Sinead Hines for Neurology,
+Maureen Novak, Madina Carter and Julie Rubio for Pulmonology,
+Finnian Gillespie, Simeon Middleton and Caio Orozco for Cardiology,
+and Shaquille Dennis, Andrei Guevara and Leonie Daniels for Endocrinology.
+
+Patient: I actually want to come on Friday next week.
+Chatbot: Dr. Caio Orozco is not available on 07.05.2021, but is available on 10.05.2021 at the following hours:
+08:00	08:30	09:00	09:30	10:00	10:30	11:00	11:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+
+Patient: 8:30.
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: What is your name?
+
+Patient: Loredan Pustianu
+Chatbot: OK, what is your email address?
+
+Patient: pustianuloredan@yahoo.com
+Chatbot: Your telephone number please.
+
+Patient: 0745872093
+Chatbot: How old are you?
+
+Patient: 20
+Chatbot: Here is a recap of the details you gave me:
+Name: Loredan Pustianu
+Email: pustianuloredan@yahoo.com
+Tel: 0745872093
+Age: 20
+Department: Cardiology
+Doctor: Caio Orozco
+Date: 10.05.2021
+Weekday: Mon
+Time: 08:30
+Is the information correct? (If not, tell me what to change!)
+
+Patient: nNo
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: Here is a recap of the details you gave me:
+Name: Loredan Pustianu
+Email: pustianuloredan@yahoo.com
+Tel: 0745872093
+Age: 20
+Department: Cardiology
+Doctor: Caio Orozco
+Date: 10.05.2021
+Weekday: Mon
+Time: 08:30
+Is the information correct? (If not, tell me what to change!)
+
+Patient: No, the age is incorrect.
+Chatbot: How old are you?
+
+Patient: 40.
+Chatbot: Invalid age! Please only enter digits:
+
+Patient: 40
+Chatbot: OK. 
+Patient: k
+Chatbot: ï¿½ï¿½ï¿½GMon
+Patient: k
+Chatbot: ï¿½ï¿½ï¿½GMon
+Patient: k
+Chatbot: ï¿½ï¿½ï¿½GMon
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment hampton.
+Chatbot: Are you referring to dr. Lacy Hampton?
+
+Patient: yes.
+Chatbot: When would you like to come?
+
+Patient: tomorrwo
+Chatbot: When would you like to come?
+
+Patient: tomorrow
+Chatbot: Dr. Lacy Hampton is not available on 27.04.2021, but is available on 28.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: at 15
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: What is your name?
+
+Patient: Chris
+Chatbot: OK, what is your email address?
+
+Patient: asd@fasd.com
+Chatbot: Your telephone number please.
+
+Patient: 1230
+Chatbot: How old are you?
+
+Patient: 19
+Chatbot: Here is a recap of the details you gave me:
+Name: Chris
+Email: asd@fasd.com
+Tel: 1230
+Age: 19
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 28.04.2021
+Weekday: Wed
+Time: 15:00
+Is the information correct? (If not, tell me what to change!)
+
+Patient: eNo
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: Here is a recap of the details you gave me:
+Name: Chris
+Email: asd@fasd.com
+Tel: 1230
+Age: 19
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 28.04.2021
+Weekday: Wed
+Time: 15:00
+Is the information correct? (If not, tell me what to change!)
+
+Patient: No, the age is wrong.
+Chatbot: How old are you?
+
+Patient: 18
+Chatbot: Here is a recap of the details you gave me:
+Name: Chris
+Email: asd@fasd.com
+Tel: 1230
+Age: 18
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 28.04.2021
+Weekday: Wed
+Time: 15:00
+Is the information correct? (If not, tell me what to change!)
+
+Patient: eyes.
+Chatbot: Here is a recap of the details you gave me:
+Name: Chris
+Email: asd@fasd.com
+Tel: 1230
+Age: 18
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 28.04.2021
+Weekday: Wed
+Time: 15:00
+Is the information correct? (If not, tell me what to change!)
+
+Patient: yes
+Chatbot: Do you need help with anything else?
+
+Patient: I want to make another appointment.
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: make appointment.
+Chatbot: OK. Which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment.
+Chatbot: OK. Which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Do you know which doctor you would like to see?
+
+Patient: Yes.
+Chatbot: OK, which one?
+
+Patient: dr. Hampton.
+Chatbot: Are you referring to dr. Lacy Hampton?
+
+Patient: Yes.
+Chatbot: OK. When would you like to come?
+
+Patient: Tomorrow
+Chatbot: Dr. Lacy Hampton is not available on 27.04.2021, but is available on 28.04.2021 at the following hours:
+15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: half past 16.
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: OK, what is your email address?
+
+Patient: casda@fsfd.com
+Chatbot: Your telephone number please.
+
+Patient: 014123
+Chatbot: How old are you?
+
+Patient: 20
+Chatbot: Here is a recap of the details you gave me:
+Name: Christi
+Email: casda@fsfd.com
+Tel: 014123
+Age: 20
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 28.04.2021
+Weekday: Wed
+Time: 16:30
+Is the information correct? (If not, tell me what to change!)
+
+Patient: nNo, the email is wrong.
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: Here is a recap of the details you gave me:
+Name: Christi
+Email: casda@fsfd.com
+Tel: 014123
+Age: 20
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 28.04.2021
+Weekday: Wed
+Time: 16:30
+Is the information correct? (If not, tell me what to change!)
+
+Patient: email
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: Here is a recap of the details you gave me:
+Name: Christi
+Email: casda@fsfd.com
+Tel: 014123
+Age: 20
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 28.04.2021
+Weekday: Wed
+Time: 16:30
+Is the information correct? (If not, tell me what to change!)
+
+Patient: name
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: Here is a recap of the details you gave me:
+Name: Christi
+Email: casda@fsfd.com
+Tel: 014123
+Age: 20
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 28.04.2021
+Weekday: Wed
+Time: 16:30
+Is the information correct? (If not, tell me what to change!)
+
+Patient: no
+Chatbot: Here is a recap of the details you gave me:
+Name: Christi
+Email: casda@fsfd.com
+Tel: 014123
+Age: 20
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 28.04.2021
+Weekday: Wed
+Time: 16:30
+Is the information correct? (If not, tell me what to change!)
+
+Patient: No
+Chatbot: Here is a recap of the details you gave me:
+Name: Christi
+Email: casda@fsfd.com
+Tel: 014123
+Age: 20
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 28.04.2021
+Weekday: Wed
+Time: 16:30
+Is the information correct? (If not, tell me what to change!)
+
+Patient: yes
+Chatbot: Do you need help with anything else?
+
+Patient: I would like to maek an appointment.
+Chatbot: OK. Which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment.
+Chatbot: OK. Which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Do you know which doctor you would like to see?
+
+Patient: Yes.
+Chatbot: OK, which one?
+
+Patient: Lacy Hampton.
+Chatbot: When would you like to come?
+
+Patient: Tomorrow.
+Chatbot: Dr. Lacy Hampton is not available on 27.04.2021, but is available on 28.04.2021 at the following hours:
+15:30	16:00	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: at 17 and a half.
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+
+Chatbot: What is your name?
+
+Patient: Christian Pustianu Constantin
+Chatbot: OK, what is your email address?
+
+Patient: pustianuchristian@yahoo.com
+Chatbot: Your telephone number please.
+
+Patient: 0735851024
+Chatbot: How old are you?
+
+Patient: 19
+Chatbot: Here is a recap of the details you gave me:
+Name: Christian Pustianu Constantin
+Email: pustianuchristian@yahoo.com
+Tel: 0735851024
+Age: 19
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 28.04.2021
+Weekday: Wed
+Time: 17:30
+Is the information correct? (If not, tell me what to change!)
+
+Patient: No
+Chatbot: OK. What shold I change?
+
+Patient: The age.
+Chatbot: How old are you?
+
+Patient: 20
+Chatbot: Here is a recap of the details you gave me:
+Name: Christian Pustianu Constantin
+Email: pustianuchristian@yahoo.com
+Tel: 0735851024
+Age: 20
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 28.04.2021
+Weekday: Wed
+Time: 17:30
+Is the information correct? (If not, tell me what to change!)
+
+Patient: No
+Chatbot: OK. What shold I change?
+
+Patient: The doctor
+Chatbot: I am unsure of what you meant by that...
+
+Patient: the Doctor.
+Chatbot: I am unsure of what you meant by that...
+
+Patient: the age
+Chatbot: Sorry, I didn't quite catch that...
+
+Patient: Bye.
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: I want to cancel an appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: OK. Which department would you like to go to?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: Hello, I would like to cancel an appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: OK. 
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: Hello, I want to cancel an appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: OK. 
+
+Patient: g
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What phone number did you use?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: I want to cancel an appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: Æ
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: I want to cancel an appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: Hmm, I'm not sure...
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: Can I cancel an appointment?
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Lacy Hampton
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: Which doctor did you make the appointment for?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: Hello, I want to cancel an appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: lacy hampton
+Chatbot: And for what time?
+
+Patient: 16:30.
+Chatbot: What date is it on?
+
+Patient: 28.04.2021
+Chatbot: Done!
+
+Chatbot: Can I help you with anything else?
+
+Patient: No
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: Hello, I want to cancel an appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Hampton
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Lacy Hampton
+Chatbot: What date is it on?
+
+Patient: 28.04.2021
+Chatbot: And for what time?
+
+Patient: 16:00
+Chatbot: Hmm, I'm not sure...
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: I want to cancel an appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Hampton
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Lacy Hampton
+Chatbot: What date is it on?
+
+Patient: 27.04.2021
+Chatbot: And for what time?
+
+Patient: 16:30
+Chatbot: There is no appointment made with the details you provided!
+
+Chatbot: Can I help you with anything else?
+
+Patient: I want to cancel an appointment
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: There is no appointment made with the details you provided!
+
+Chatbot: Can I help you with anything else?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: I want to cancel an appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: LACY Hampton
+Chatbot: What date is it on?
+
+Patient: 27.04.2021.
+Chatbot: And for what time?
+
+Patient: 16:30
+Chatbot: There is no appointment made with the details you provided!
+
+Chatbot: Do you need help with anything else?
+
+Patient: Yes, I want to cancel another appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Lacy Hampton
+Chatbot: Which doctor did you make the appointment for?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: I want to cancel an appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Lacy Hampton
+Chatbot: What date is it on?
+
+Patient: 27.04.2021
+Chatbot: And for what time?
+
+Patient: 16:30
+Chatbot: There is no appointment made with the details you provided!
+
+Chatbot: Do you need help with anything else?
+
+Patient: yes, I would like to cancel another appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: LAcy Hampton
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: g
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: g
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Lacy Hampton
+Chatbot: Which doctor did you make the appointment for?
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: I want to cancel an appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Lacy Hampton
+Chatbot: What date is it on?
+
+Patient: 27.04.2021
+Chatbot: And for what time?
+
+Patient: 16:30
+Chatbot: There is no appointment made with the details you provided!
+
+Chatbot: Do you need help with anything else?
+
+Patient: Yes, I want to cancel another appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Lacy Hampton
+Chatbot: Dr. Lacy Hampton does not work for the Neurology department!
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: Hello, I want to make an appointment.
+Chatbot: OK. Which department would you like to go to?
+
+Patient: quit
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: Hello, I want to cancel an appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Lacy Hampton
+Chatbot: What date is it on?
+
+Patient: 27.04.2021
+Chatbot: And for what time?
+
+Patient: 16:30
+Chatbot: There is no appointment made with the details you provided!
+
+Chatbot: Do you need help with anything else?
+
+Patient: Yes, I want to cancel another appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christi
+Chatbot: What phone number did you use?
+
+Patient: 014123
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Lacy Hampton
+Chatbot: What date is it on?
+
+Patient: 28.04.2021
+Chatbot: And for what time?
+
+Patient: 16:30
+Chatbot: Done!
+
+Chatbot: ‘U
+Patient: No
+Chatbot: Lvü_‘U
+Patient: NO
+Chatbot: I am unsure of what you meant by that...
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: Hello, I want to cancel an appointment.
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: asdasd
+Chatbot: What phone number did you use?
+
+Patient: asda
+Chatbot: Invalid telephone number! Please only enter digits:
+
+Patient: sdasdas
+Chatbot: Invalid telephone number! Please only enter digits:
+
+Patient: 01203123
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Ladsdaasd
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Lacy Hampton
+Chatbot: What date is it on?
+
+Patient: 21.03.2021
+Chatbot: And for what time?
+
+Patient: 15:30
+Chatbot: There is no appointment made with the details you provided!
+
+Chatbot: Do you need help with anything else?
+
+Patient: yes, can I cancel another appointment?
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+
+Chatbot: What is your name?
+
+Patient: Christian Pustianu.
+Chatbot: What phone number did you use?
+
+Patient: 0735851024
+Chatbot: Which doctor did you make the appointment for?
+
+Patient: Lacy Hampton
+Chatbot: What date is it on?
+
+Patient: 30.04.2021
+Chatbot: And for what time?
+
+Patient: 15:00
+Chatbot: Done!
+
+Chatbot: Do you have any other questions?
+
+Patient: No
+Chatbot: Sorry, I didn't quite catch that...
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+
+Patient: Goodbye.
+Chatbot: It was nice to meet you!
+Have a nice day!
+

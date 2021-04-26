@@ -19,10 +19,9 @@ char* process_input(char* string)
     int j = 0;
     for(int i = 0; i < strlen(string); i++)
     {
-        string[i] = tolower(string[i]);
         if(isdigit(string[i]) || isalpha(string[i]) || string[i] == ' ')
         {
-            processed_input[j] = string[i];
+            processed_input[j] = tolower(string[i]);
             j++;
         }
     }
@@ -48,7 +47,7 @@ int split_string(char* string)
             j++;
         }
     }
-    return k+1;
+    return k;
 }
 
 int search_for_department(char* dep)
@@ -176,9 +175,7 @@ int search_for_intent_in_string(char* string)
 
 int search_for_question(char* string)
 {
-    char* question = NULL;
-    question = strstr(string, "?");
-    if(question != NULL)
+    if(string[strlen(string) - 1] == '?')
     {
         char* ptr = NULL;
         char* request[12] = {"Who ", "What ", "Which ", "Where ", "How ", "When ", " who ", " what ", " which ", " where ", " how ", " when "};
@@ -186,7 +183,9 @@ int search_for_question(char* string)
         {
             ptr = strstr(string, request[i]);
             if(ptr != NULL)
+            {
                 return 0;
+            }
         }
     }
     return 1;
@@ -402,7 +401,7 @@ int search_for_date_numeric(char* word)
     char str[3][5];
     int k = 0;
     int j = 0;
-    if((strlen(word) >= 6 && strlen(word) <=10) &&
+    if((strlen(word) >= 6 && strlen(word) <=11) &&
     ((word[1] == '.' || word[1] == '-' || word[1] == '/') || (word[2] == '.' || word[2] == '-' || word[2] == '/')) && 
     ((word[3] == '.' || word[3] == '-' || word[3] == '/') || (word[4] == '.' || word[4] == '-' || word[4] == '/') || 
     (word[5] == '.' || word[5] == '-' || word[5] == '/')) && isdigit(word[0]) != 0)
@@ -433,7 +432,6 @@ int search_for_date_numeric(char* word)
         }
         if(strlen(str[2]) == 2)
             strcat(date, "20");
-
         strcat(date, str[2]);
         strcpy(temp_date, date);
         return 0;
@@ -444,11 +442,14 @@ int search_for_date_numeric(char* word)
 int search_for_time(char* word)
 {
     char hour[6] = "";
-    if((strlen(word) == 4 || strlen(word) == 5) &&
-    (word[1] == ':' || word[2] == ':') && isdigit(word[0]) != 0)
+    if((strlen(word) >= 4 && strlen(word) <= 6) &&
+    (word[1] == ':' || word[2] == ':') && isdigit(word[0]) != 0 && isdigit(word[3]) != 0)
     {
         if(word[1] == ':')
             strcpy(hour, "0");
+        if(word[strlen(word) - 1] == '.')
+            word[strlen(word) - 1] = '\0';
+        else if(strlen(word) == 6) return 1;
         strcat(hour, word);
         strcpy(temp_time, hour);
         return 0;

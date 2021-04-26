@@ -98,7 +98,7 @@ int search_for_question(char* string);
 int search_for_request(char* string);
 
 /**
- * Searches a string for a date in mixed format, such as "the 1st of May".
+ * Searches a string for a date in mixed format, such as "the 1st of May". 
  * If found, it saves it in a global variable (temp_date).
  * 
  * @param string The string to be searched
@@ -109,7 +109,7 @@ int search_for_date(char* string);
 /**
  * Searches a string for a date in formats, such as: "tomorrow", 
  * "the day after tomorrow", "on Tuesday in 3 weeks", "in 5 days", 
- * or "next Friday".
+ * or "next Friday". 
  * If found, it saves it in a global variable (temp_date).
  * 
  * @param string The string to be searched
@@ -118,7 +118,7 @@ int search_for_date(char* string);
 int search_for_date_phrase(char* string);
 
 /**
- * Compares a word with a numeric format of date ("01.05.2001").
+ * Compares a word with a numeric format of date ("01.05.2001"). 
  * If found, it saves it in a global variable (temp_date).
  * 
  * @param word The word to be compared
@@ -127,7 +127,7 @@ int search_for_date_phrase(char* string);
 int search_for_date_numeric(char* word);
 
 /**
- * Compares a word with a numeric format of time ("12:30")
+ * Compares a word with a numeric format of time ("12:30"). 
  * If found, it saves it in a global variable (temp_time).
  * 
  * @param word The word to be compared
@@ -137,7 +137,7 @@ int search_for_time(char* word);
 
 /**
  * Searches a string for a time in mixed format, such as: 
- * "at 12 o'clock", "half past 9", "at 11" or "at 14 and a half".
+ * "at 12 o'clock", "half past 9", "at 11" or "at 14 and a half". 
  * If found, it saves it in a global variable (temp_time).
  * 
  * @param string The string to be searched

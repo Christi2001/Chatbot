@@ -134,9 +134,10 @@ int save_appointment(Appointment appointment);
  * it removes the appointment (from "doctors.txt" as well).
  * 
  * @param appointment An appointment struct containing all the info needed about an appointment
- * @return 0 if it successfully canceled the appointment in the text files or 1 if not
+ * @return 0 if it successfully found and canceled the appointment, 1 if not or -1 if the file 
+ * could not be opened 
  */
-int cancel_appointment(Appointment appointment);
+int delete_appointment(Appointment appointment);
 
 /**
  * Loads data from "appointments.txt" into an array of Appointment structs.

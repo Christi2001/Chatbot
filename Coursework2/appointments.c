@@ -122,23 +122,15 @@ int save_appointment(Appointment app)
     return 0;
 }
 
-int cancel_appointment(Appointment app)
+int delete_appointment(Appointment app)
 {
     int index = -1;
     for(int i = 0; i < Current_num_appointments; i++)
-    {
-        printf("bruh\n");
-        printf("%s\n", appointment[i].name);
-        printf("%s\n", appointment[i].tel);
-        printf("%s\n", appointment[i].doctor);
-        printf("%s\n", appointment[i].date);
-        printf("%s\n\n", appointment[i].time);
         if(strcmp(appointment[i].name, app.name) == 0 && strcmp(appointment[i].tel, app.tel) == 0 && strcmp(appointment[i].doctor, app.doctor) == 0 && strcmp(appointment[i].date, app.date) == 0 && strcmp(appointment[i].time, app.time) == 0)
             {
                 index = i;
                 break;
             }
-    }
 
     if(index != -1)
     {
@@ -162,7 +154,7 @@ int cancel_appointment(Appointment app)
         if(!file)
         {
             printf("Cannot open file \"appointments.txt\"!");
-            return 1;
+            return -1;
         }
         for(int i = 0; i < Current_num_appointments; i++)
         {
@@ -180,8 +172,7 @@ int cancel_appointment(Appointment app)
         fclose(file);
     }
     else
-        printf("Appointment not found!");
-    
+        return 1;
     return 0;
 }
 

@@ -14,7 +14,7 @@ char* say_introduction()
     strcat(string, "***********************************************************************************************\n");
     printf("%s", string);
     chatlog(string);
-    strcpy(string, "Hello! My name is Albert and I am your virtual assistant.\nHow may I help you?\n");
+    strcpy(string, "Hello! My name is Albert and I am your virtual assistant at this clinic.\nHow may I help you?\n");
     return string;
 }
 
@@ -27,7 +27,7 @@ char* ask_for_other_questions()
 {
     char* string = (char*) malloc(100*sizeof(char));
     srand(time(0));
-    int random = rand() % 3 + 1;
+    int random = rand() % 3;
     char response[3][100] = {"Do you have any other questions?\n", "Can I help you with anything else?\n",
     "Do you need help with anything else?\n"};
     strcpy(string, response[random]);
@@ -38,7 +38,7 @@ char* say_didnt_understand()
 {
     char* string = (char*) malloc(100*sizeof(char));
     srand(time(0));
-    int random = rand() % 4 + 1;
+    int random = rand() % 4;
     char response[4][100] = {"I'm sorry, I didn't understand that!\n", "Sorry, I didn't quite catch that...\n",
     "Hmm, I'm not sure...\n", "I am unsure of what you meant by that...\n"};
     strcpy(string, response[random]);
@@ -67,8 +67,10 @@ char* show_schedule(char* doctor, char* weekday)
 
 char* show_modified_schedule_on_date(char* doctor, char* date)
 {
-    char newdate[11];
-    strcpy(newdate, date);
+    char new_date[11];
+    char old_date[11];
+    strcpy(new_date, date);
+    strcpy(old_date, date);
     char* string = (char*) malloc(1000*sizeof(char));
     int d = doctor_schedule_on_date(doctor, date);
     if(d == 0)
@@ -86,13 +88,13 @@ char* show_modified_schedule_on_date(char* doctor, char* date)
     }
     while(d == 1)
     {
-        time_t t_sec = string_to_sec(newdate);
+        time_t t_sec = string_to_sec(new_date);
         t_sec += SEC_IN_DAY;
         struct tm tm = *localtime(&t_sec);
-        strftime(newdate, 11, "%d.%m.%Y", &tm);
-        d = doctor_schedule_on_date(doctor, newdate);
-        strcpy(temp_date, newdate);
-        sprintf(string, "Dr. %s is not available on %s, but is available on %s at the following hours:\n", doctor, date, newdate);
+        strftime(new_date, 11, "%d.%m.%Y", &tm);
+        d = doctor_schedule_on_date(doctor, new_date);
+        strcpy(temp_date, new_date);
+        sprintf(string, "Dr. %s is not available on %s, but is available on %s at the following hours:\n", doctor, old_date, new_date);
         for(int i = 0; i < 24; i++)
         {
             if(modified_schedule.session[i] == '1')

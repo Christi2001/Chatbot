@@ -273,13 +273,19 @@ void test_search_for_date_phrase() {
 	today_plus = *localtime(&today_sec);
 	strftime(today_date, 11, "%d.%m.%Y", &today_plus);
 	TEST_ASSERT_EQUAL_STRING(today_date, temp_date);
-	
+
 	TEST_ASSERT_EQUAL_INT(0, search_for_date_phrase("next tuesday"));
 	today_sec = t_sec + (7+2)*SEC_IN_DAY;
 	today_plus = *localtime(&today_sec);
 	strftime(today_date, 11, "%d.%m.%Y", &today_plus);
 	TEST_ASSERT_EQUAL_STRING(today_date, temp_date);
 
+	TEST_ASSERT_EQUAL_INT(0, search_for_date_phrase("Wednesday in a week"));
+	today_sec = t_sec + (1*7+3)*SEC_IN_DAY;
+	today_plus = *localtime(&today_sec);
+	strftime(today_date, 11, "%d.%m.%Y", &today_plus);
+	TEST_ASSERT_EQUAL_STRING(today_date, temp_date);
+	
 	TEST_ASSERT_EQUAL_INT(0, search_for_date_phrase("Next week on Friday"));
 	today_sec = t_sec + (7+5)*SEC_IN_DAY;
 	today_plus = *localtime(&today_sec);
