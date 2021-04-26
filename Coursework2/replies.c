@@ -1,38 +1,109 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 #include "replies.h"
 #include "processing.h"
+#include "appointments.h"
 
 char* say_introduction()
 {
-    char* string = "Hello! My name is Bob and I am your virtual assistant.\nHow may I help you?\n";
+    char* string = (char*) malloc(1000*sizeof(char));
+    strcpy(string, "***********************************************************************************************\n");
+    strcat(string, "**                                A    L    B    E    R    T                                 **\n");
+    strcat(string, "***********************************************************************************************\n");
+    printf("%s", string);
+    chatlog(string);
+    strcpy(string, "Hello! My name is Albert and I am your virtual assistant.\nHow may I help you?\n");
     return string;
 }
 
-void say_hello_name(char* name)
+// void say_hello_name(char* name)
+// {
+//     // printf("");
+// }
+
+char* ask_for_other_questions()
 {
-    // printf("");
+    char* string = (char*) malloc(100*sizeof(char));
+    srand(time(0));
+    int random = rand() % 3 + 1;
+    char response[3][100] = {"Do you have any other questions?\n", "Can I help you with anything else?\n",
+    "Do you need help with anything else?\n"};
+    strcpy(string, response[random]);
+    return string;
 }
 
-void say_goodbye()
+char* say_didnt_understand()
 {
-
+    char* string = (char*) malloc(100*sizeof(char));
+    srand(time(0));
+    int random = rand() % 4 + 1;
+    char response[4][100] = {"I'm sorry, I didn't understand that!\n", "Sorry, I didn't quite catch that...\n",
+    "Hmm, I'm not sure...\n", "I am unsure of what you meant by that...\n"};
+    strcpy(string, response[random]);
+    return string;
 }
 
-void ask_appointment_details(Appointment appointment)
+char* show_schedule(char* doctor, char* weekday)
 {
-
+    char* string = (char*) malloc(1000*sizeof(char));
+    int d = doctor_schedule(doctor, weekday);
+    if(d == 0)
+    {
+        sprintf(string, "Dr. %s's schedule for %s is the following:\n", doctor, weekday);
+        for(int i = 0; i < 24; i++)
+        {
+            if(normal_schedule.session[i] == '1')
+            {
+                strcat(string, hours[i]);
+                strcat(string, "\t");
+            }
+        }
+        strcat(string, "\n");
+    }
+    return string;
 }
 
-void ask_for_other_questions()
+char* show_modified_schedule_on_date(char* doctor, char* date)
 {
-    
-}
-
-void didnt_understand()
-{
-
+    char newdate[11];
+    strcpy(newdate, date);
+    char* string = (char*) malloc(1000*sizeof(char));
+    int d = doctor_schedule_on_date(doctor, date);
+    if(d == 0)
+    {
+        sprintf(string, "Dr. %s is available on %s at the following hours:\n", doctor, date);
+        for(int i = 0; i < 24; i++)
+        {
+            if(modified_schedule.session[i] == '1')
+            {
+                strcat(string, hours[i]);
+                strcat(string, "\t");
+            }
+        }
+        strcat(string, "\nWhat time do you prefer?\n");
+    }
+    while(d == 1)
+    {
+        time_t t_sec = string_to_sec(newdate);
+        t_sec += SEC_IN_DAY;
+        struct tm tm = *localtime(&t_sec);
+        strftime(newdate, 11, "%d.%m.%Y", &tm);
+        d = doctor_schedule_on_date(doctor, newdate);
+        strcpy(temp_date, newdate);
+        sprintf(string, "Dr. %s is not available on %s, but is available on %s at the following hours:\n", doctor, date, newdate);
+        for(int i = 0; i < 24; i++)
+        {
+            if(modified_schedule.session[i] == '1')
+            {
+                strcat(string, hours[i]);
+                strcat(string, "\t");
+            }
+        }
+        strcat(string, "\nWhat time do you prefer?\n");
+    }
+    return string;
 }
 
 char* list_all_doctors()
@@ -72,7 +143,6 @@ char* list_all_doctors()
     return string;
 }
 
-
 char* list_departments()
 {
     char* string = (char*) malloc(200*sizeof(char));
@@ -92,7 +162,7 @@ char* list_departments()
 char* list_doctors_in_dep(char* dep)
 {
     char* string = (char*) malloc(200*sizeof(char));
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i < TOTAL_NUM_DEP; i++)
         if(strcmp(dep, department[i].dep_title) == 0)
         {
             sprintf(string, "The doctors working at the %s department are: dr. %s, dr. %s and dr. %s.\nWhich one would you like to make an appointment for?\n", department[i].dep_title, department[i].doctors[0].full_name, department[i].doctors[1].full_name, department[i].doctors[2].full_name);

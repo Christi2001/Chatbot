@@ -1325,3 +1325,808 @@ Chatbot:
 Chatbot: Hello! My name is Bob and I am your virtual assistant.
 How may I help you?
 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: in 15 days.
+Chatbot: 
+Patient: fsd
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I want to make an appointment next Friday.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Asma Farrell
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: yes
+Chatbot: Ok, which one?
+
+Patient: goodbye
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I would like to make an appointment
+Chatbot: Dr.  does not work for department !
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I want to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Dr.  does not work for department Neurology!
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No.
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Mohamed Webster please.
+Chatbot: Dr. Mohamed Webster does not work for department Neurology!
+
+Patient: Ok, doctor Lacy Hampton then.
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I want to make an appointment with dr Lacy Hampton.
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, i would like to make an appointment with Lacy Hampton.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment with Lacy Hampton.
+Chatbot: 
+Patient: quit
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment at Neurology.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: Yes
+Chatbot: Ok, which one?
+
+Patient: Mohamed Webster
+Chatbot: Dr. Mohamed Webster does not work for the Neurology department!
+
+Patient: Lacy Hampton then.
+Chatbot: 
+Patient: quit
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment for neurology.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: dasd a
+Chatbot: Ok, when would you like to come?
+
+Patient: no
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: NEurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: fsd
+Chatbot: Sorry, I didn't understand.
+
+Patient: NO
+Chatbot: Sorry, I didn't understand.
+
+Patient: No
+Chatbot: Sorry, I didn't understand.
+
+Patient: no
+Chatbot: Sorry, I didn't understand.
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I want to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: dada
+Chatbot: Sorry, I didn't understand.
+
+Patient: d
+Chatbot: Sorry, I didn't understand.
+
+Patient: no
+Chatbot: Sorry, I didn't understand.
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: Sorry, I didn't understand that...
+
+Patient: yes
+Chatbot: Sorry, I didn't understand that...
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: sad
+Chatbot: Sorry, I didn't understand that...
+
+Patient: LAcy Hampton.
+Chatbot: Sorry, I didn't understand that...
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: dasd
+Chatbot: Sorry, I didn't understand that...
+
+Patient: Lacy Hampton
+Chatbot: Sorry, I didn't understand that...
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: ads
+Chatbot: Sorry, I didn't understand that...
+
+Patient: LAcy hampton.
+Chatbot: Sorry, I didn't understand that...
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, i want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: sdf
+Chatbot: Sorry, I didn't understand that...
+
+Patient: Lacy hampton
+Chatbot: Sorry, I didn't understand that...
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: sdf
+Chatbot: Sorry, I didn't understand that...
+
+Patient: No
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Lacy Hampton.
+Chatbot: Sorry, I didn't understand that...
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: hello, I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: dasd
+Chatbot: Sorry, I didn't understand that...
+
+Patient: LAcy Hampton
+Chatbot: Sorry, I didn't understand that...
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: sdf
+Chatbot: Sorry, I didn't understand that...
+
+Patient: No
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: fsdf
+Chatbot: Sorry, I didn't understand that...
+
+Patient: Lacy Hampton
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: Yes, Mohamed Webster..
+Chatbot: Ok, which one?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Can you show me the departments?
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+
+Patient: ok, I would like to go to Neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: Yes, LAcy Hampton
+Chatbot: Ok, which one?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: yes, lacy hampton
+Chatbot: Ok, which one?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: yes, lacy hampton
+Chatbot: Sorry, I didn't understand that...
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: yes, lacy hampton
+Chatbot: Sorry, I didn't understand that...
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: yes, lacy hampton
+Chatbot: Sorry, I didn't understand that...
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: yes, lacy hampton
+Chatbot: Sorry, I didn't understand that...
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: yes, lacy hampton
+Chatbot: Sorry, I didn't understand that...
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: yes, lacy hampton
+Chatbot: Ok
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: asda
+Chatbot: Sorry, I didn't understand that...
+
+Patient: lacy hampton
+Chatbot: Ok
+
+Patient: quit
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: no
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: sdf
+Chatbot: Sorry, I didn't understand that...
+
+Patient: Asma farrell
+Chatbot: Ok
+
+Patient: quir
+Chatbot: Ok
+
+Patient: quit
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: asd
+Chatbot: Ok, which department would you like to go to?
+
+Patient: fsdasfagahf
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Can you show me the doctors?
+Chatbot: The doctors in our clinic are:
+Zaara Rosales, Bea Rowley and Herman Mcdowell for Orthopedy,
+Vivienne Bradshaw, Isaac Maguire and Derek Farmer for Oncology,
+Osian Connor, Garin Griffin and Cally Cardenas for Gynecology,
+Alberto Johns, Mohamed Webster and Francesco Blackwell for Dermatology,
+Alicja Osborn, Kelsie Martinez and Colleen Wall for Ophthalmology,
+Esha Hyde, Shiv Boyce and Qasim Samuels for Otolaryngology,
+Lacy Hampton, Asma Farrell and Sinead Hines for Neurology,
+Maureen Novak, Madina Carter and Julie Rubio for Pulmonology,
+Finnian Gillespie, Simeon Middleton and Caio Orozco for Cardiology,
+and Shaquille Dennis, Andrei Guevara and Leonie Daniels for Endocrinology.
+
+Patient: I want to go to Caio Orozco
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neruology please.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Lacy Hampton please.
+Chatbot: 
+Patient: quit
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I would like to make an appointment with dr. Hampton.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: quit
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello I would like to make an appointment with dr. Hampton.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: quit
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want an appointment with dr. Hampton.
+Chatbot: 
+Patient: ds
+Chatbot: 
+Patient: asd
+Chatbot: 
+Patient: asd
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: hello, I want an appointment with dr. Hampton.
+Chatbot: 
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment dr. hampton.
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment dr. Hampton
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment hampton
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment hampton
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment hampton
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment hampton
+Chatbot: Are you referring to dr. Lacy Hampton ?
+
+Patient: yes
+Chatbot: Ok, which department would you like to go to?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment hampton
+Chatbot: Are you referring to dr. Lacy Hampton ?
+
+Patient: yes
+Chatbot: Ok, when would you like to come?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: want make appointment hampton
+Chatbot: Are you referring to dr. Lacy Hampton ?
+
+Patient: yes
+Chatbot: Ok, when would you like to come?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment at neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: yes, lacy hampton
+Chatbot: Ok, which one?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment at neurology
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: yes, lacy hampton
+Chatbot: Ok, which one?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I want to make an appointment with dr. Hampton
+Chatbot: Are you referring to dr. Lacy Hampton ?
+
+Patient: yes
+Chatbot: Ok, when would you like to come?
+
+Patient: next Tuesday.
+Chatbot: Dr. Lacy Hampton is not available on 05.05.2021, but is available on 05.05.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: 15:30
+Chatbot: Dr. Lacy Hampton is available on 05.05.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Lacy Hampton please.
+Chatbot: Are you referring to dr. Lacy Hampton ?
+
+Patient: yes
+Chatbot: Ok, when would you like to come?
+
+Patient: on Tuesday in 2 weeks.
+Chatbot: Dr. Lacy Hampton is not available on 12.05.2021, but is available on 12.05.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: 15:00
+Chatbot: Dr. Lacy Hampton is available on 12.05.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: 15:00
+Chatbot: Dr. Lacy Hampton is available on 12.05.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Cardiology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Cardiology department are: dr. Finnian Gillespie, dr. Simeon Middleton and dr. Caio Orozco.
+Which one would you like to make an appointment for?
+
+Patient: Finnian Gillespie
+Chatbot: Are you referring to dr. Finnian Gillespie ?
+
+Chatbot: Hello! My name is Bob and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Cardiology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Cardiology department are: dr. Finnian Gillespie, dr. Simeon Middleton and dr. Caio Orozco.
+Which one would you like to make an appointment for?
+
+Patient: Finnian Gillespie please
+Chatbot: 
+Patient: sd
+Chatbot: Ok, when would you like to come?
+
+Patient: quit
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Neurology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+
+Patient: Lacy please.
+Chatbot: Sorry, I didn't quite catch that...
+
+Patient: Lacy Hampton
+Chatbot: 
+Patient: f
+Chatbot: Ok, when would you like to come?
+
+Patient: in a week
+Chatbot: Ok, when would you like to come?
+
+Patient: in a week on Tuesday
+Chatbot: Dr. Lacy Hampton is not available on 05.05.2021, but is available on 05.05.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: Bye
+Chatbot: It was nice to meet you!
+Have a nice day!
+
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+
+Chatbot: Hello! My name is Albert and I am your virtual assistant.
+How may I help you?
+
+Patient: Hello, I would like to make an appointment.
+Chatbot: Ok, which department would you like to go to?
+
+Patient: Cardiology please.
+Chatbot: Ok, do you know which doctor you would like to see?
+
+Patient: No
+Chatbot: The doctors working at the Cardiology department are: dr. Finnian Gillespie, dr. Simeon Middleton and dr. Caio Orozco.
+Which one would you like to make an appointment for?
+
+Patient: Dr. Caio Orozco please.
+Chatbot: 
+Patient: d
+Chatbot: Ok, when would you like to come?
+
+Patient: Tomorrow
+Chatbot: Dr. Caio Orozco is available on 27.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+
+Patient: 15:30 please.
+Chatbot: Dr. Caio Orozco is available on 27.04.2021 at the following hours:
+15:00	15:30	16:00	16:30	17:00	17:30	18:00	18:30	19:00	19:30	
+What time do you prefer?
+

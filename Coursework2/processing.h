@@ -8,12 +8,15 @@
 
 char words[100][20];
 Appointment current_appointment;
-char* temp_doc_name;
-char* temp_dep;
-char* temp_date;
+char unconfirmed_doc_name[30];
+char unconfirmed_dep[20];
+char temp_doc_name[30];
+char temp_dep[20];
+char temp_date[11];
 int temp_weekday;
-char* temp_time;
+char temp_time[6];
 time_t temp_sec;
+char docs_in_dep[3][30];
 
 /**
  * Takes a string as input and saves it in chatlog.txt. Then it turns it to lowercase 

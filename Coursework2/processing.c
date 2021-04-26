@@ -17,7 +17,6 @@ char* process_input(char* string)
 
     char* processed_input = (char*) malloc(200 * sizeof(char));
     int j = 0;
-    // scanf(" %[^\n]%*c", string);
     for(int i = 0; i < strlen(string); i++)
     {
         string[i] = tolower(string[i]);
@@ -58,10 +57,12 @@ int search_for_department(char* dep)
     for(int j = 0; j < strlen(dep); j++)
         dep1[j] = tolower(dep[j]);
     dep1[0] = toupper(dep[0]);
-    for(int i = 0; i < 10; i++)
+    for(int i = 0; i < TOTAL_NUM_DEP; i++)
         if(strcmp(dep1, department[i].dep_title) == 0)
         {
             strcpy(current_appointment.department, dep1);
+            for(int j = 0; j < NUM_DOCS_IN_ONE_DEP; j++)
+                strcpy(docs_in_dep[j], department[i].doctors[j].full_name);
             return 0;
         }
     return 1;
@@ -89,19 +90,19 @@ int search_for_doctor(char* f_name, char* l_name)
     strcat(full_name2, l_name1);
     strcat(full_name2, " ");
     strcat(full_name2, f_name1);
-    for(int i = 0; i < 10; i++)
-        for(int j = 0; j < 3; j++)
+    for(int i = 0; i < TOTAL_NUM_DEP; i++)
+        for(int j = 0; j < NUM_DOCS_IN_ONE_DEP; j++)
         {
             if(strcmp(full_name1, department[i].doctors[j].full_name) == 0)
             {
-                strcpy(current_appointment.doctor, full_name1);
-                strcpy(current_appointment.department, department[i].dep_title);
+                strcpy(temp_doc_name, full_name1);
+                strcpy(temp_dep, department[i].dep_title);
                 return 0;
             }
             else if(strcmp(full_name2, department[i].doctors[j].full_name) == 0)
             {
-                strcpy(current_appointment.doctor, full_name2);
-                strcpy(current_appointment.department, department[i].dep_title);
+                strcpy(temp_doc_name, full_name2);
+                strcpy(temp_dep, department[i].dep_title);
                 return 0;
             }
         }
@@ -117,8 +118,8 @@ int search_for_doctor_by_one_name(char* name)
         name1[i] = tolower(name[i]);
     name1[0] = toupper(name[0]);
     char names[2][15];
-    for(int i = 0; i < 10; i++)
-        for(int j = 0; j < 3; j++)
+    for(int i = 0; i < TOTAL_NUM_DEP; i++)
+        for(int j = 0; j < NUM_DOCS_IN_ONE_DEP; j++)
         {
             m = 0;
             n = 0;
@@ -138,8 +139,8 @@ int search_for_doctor_by_one_name(char* name)
             }
             if(strcmp(name1, names[0]) == 0 || strcmp(name1, names[1]) == 0)
             {
-                strcpy(temp_doc_name, department[i].doctors[j].full_name);
-                strcpy(temp_dep, department[i].dep_title);
+                strcpy(unconfirmed_doc_name, department[i].doctors[j].full_name);
+                strcpy(unconfirmed_dep, department[i].dep_title);
                 return 0;
             }
             for(int b = 0; b < 15; b++)
@@ -284,12 +285,10 @@ int search_for_date_phrase(char* string)
     struct tm today = current_day();
     time_t today_sec = mktime(&today);
     struct tm tdate;
-    time_t tdate_sec;
+    time_t tdate_sec = today_sec;
     char date1[20];
     char date2[20];
     char date3[20];
-    char date4[20];
-    char date5[20];
     char date6[20];
     char date_num[11];
     char* ptr1 = NULL;
@@ -352,7 +351,8 @@ int search_for_date_phrase(char* string)
 
     // Case 4
     ptr4 = strstr(lower_string, "next ");
-    if(ptr4 != NULL)
+    ptr5 = strstr(lower_string, "in a week");
+    if(ptr4 != NULL || ptr5 != NULL)
     {
         if(today.tm_wday > 0)
             tdate_sec = today_sec - today.tm_wday*SEC_IN_DAY;
@@ -375,9 +375,9 @@ int search_for_date_phrase(char* string)
     // Case 5
     for(int i = 0; i < 31; i++)
     {
-        sprintf(date5, "in %i days", i);
-        ptr5 = strstr(lower_string, date5);
-        if(ptr5 != NULL)
+        sprintf(date6, "in %i days", i);
+        ptr6 = strstr(lower_string, date6);
+        if(ptr6 != NULL)
         {
             tdate_sec = today_sec + i*SEC_IN_DAY;
             tdate = *localtime(&tdate_sec);
@@ -468,7 +468,7 @@ int search_for_time_phrase(char* string)
     char* ptr5 = NULL;
     char time[20] = "";
     char hour[6] = "";
-    for(int i = 99; i >= 1; i--)
+    for(int i = 100; i >= 1; i--)
     {
         sprintf(time, "at %i", i);
         ptr1 = strstr(lower_string, time);
