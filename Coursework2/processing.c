@@ -12,6 +12,7 @@ char* process_input(char* string)
     char* logged = (char*) malloc(210 * sizeof(char));
     strcpy(logged, "Patient: ");
     strcat(logged, string);
+    strcat(logged, "\n\n");
     chatlog(logged);
     free(logged);
 
@@ -524,6 +525,6 @@ int chatlog(char* string)
         printf("Cannot open file!");
         return 1;
     }
-    fprintf(chatlog, "%s\n", string);
+    fprintf(chatlog, "%s", string);
     fclose(chatlog);
 }

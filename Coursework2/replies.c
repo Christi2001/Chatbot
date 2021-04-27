@@ -45,6 +45,19 @@ char* say_didnt_understand()
     return string;
 }
 
+char* show_price(char* doctor)
+{
+    char* string = (char*) malloc(1000*sizeof(char));
+    for(int i = 0; i < TOTAL_NUM_DEP; i++)
+        for(int j = 0; j < NUM_DOCS_IN_ONE_DEP; j++)
+            if(strcmp(doctor, department[i].doctors[j].full_name) == 0)
+            {
+                sprintf(string, "The price of a consultation with dr. %s is %s GBP.\n", department[i].doctors[j].full_name, department[i].doctors[j].appointment_price);
+                return string;
+            }
+    return NULL;
+}
+
 char* show_schedule(char* doctor, char* weekday)
 {
     char* string = (char*) malloc(1000*sizeof(char));

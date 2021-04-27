@@ -112,15 +112,15 @@ void test_load_doctors() {
 	//Edge cases
 	TEST_ASSERT_EQUAL_STRING("Orthopedy", department[0].dep_title);
 	TEST_ASSERT_EQUAL_STRING("Zaara Rosales", department[0].doctors[0].full_name);
-	TEST_ASSERT_EQUAL_STRING("70", department[0].doctors[0].appointment_price);
+	TEST_ASSERT_EQUAL_STRING("35", department[0].doctors[0].appointment_price);
 	TEST_ASSERT_EQUAL_STRING("Mon", department[0].doctors[0].schedule[0].weekday);
 	
-	TEST_ASSERT_EQUAL_STRING("85", department[9].doctors[2].appointment_price);
+	TEST_ASSERT_EQUAL_STRING("35", department[9].doctors[2].appointment_price);
 	TEST_ASSERT_EQUAL_STRING("000011110000111111110000", department[9].doctors[2].schedule[2].session);
 	//Random Tests
 	TEST_ASSERT_EQUAL_STRING("Dermatology", department[3].dep_title);
 	TEST_ASSERT_EQUAL_STRING("Francesco Blackwell", department[3].doctors[2].full_name);
-	TEST_ASSERT_EQUAL_STRING("70", department[3].doctors[0].appointment_price);
+	TEST_ASSERT_EQUAL_STRING("35", department[3].doctors[0].appointment_price);
 	TEST_ASSERT_EQUAL_STRING("Alicja Osborn", department[4].doctors[0].full_name);
 	TEST_ASSERT_EQUAL_STRING("Mon", department[4].doctors[0].schedule[0].weekday);
 	TEST_ASSERT_EQUAL_STRING("Thu", department[4].doctors[1].schedule[1].weekday);

@@ -48,8 +48,10 @@ int main()
     int list_of_departments;
     int one_name;
     int wrong_dep;
+    int yes;
     int incorrect_info = 0;
     // switches for questions asked by the bot
+    int Q_details = 0;
     int Q_doc_confirmation = 0;
     int Q_which_doctor = 0;
     int Q_correct_info = 0;
@@ -88,7 +90,8 @@ int main()
         list_of_departments = 0;
         one_name = 0;
         wrong_dep = 0;
-        
+        yes = 0;
+
         scanf(" %[^\n]%*c", input);
         processed_input = process_input(input);
         length_processed = split_string(processed_input);
@@ -105,7 +108,6 @@ int main()
         // =============================================================================================================
         for (int i = 0; i < length_processed; i++)
         {
-            // printf("word[%i]: %s\n", i, words[i]);
             if(strcmp(words[i], "quit") == 0 || strcmp(words[i], "exit") == 0 || strcmp(words[i], "bye") == 0 || strcmp(words[i], "goodbye") == 0)
             {
                 quit = 1;
@@ -146,12 +148,13 @@ int main()
             }
             
             // If the patient wants to make or cancel an appointment
-            if((strcmp(words[i], "make") == 0 || strcmp(words[i], "get") == 0 && intent == 1) || ((strcmp(words[i], "make") == 0 || strcmp(words[i], "get") == 0) && question == 1))
+            if(((strcmp(words[i], "make") == 0 || strcmp(words[i], "get") == 0) && intent == 1) || ((strcmp(words[i], "make") == 0 || strcmp(words[i], "get") == 0) && question == 1))
                 make = 1;
             if(strcmp(words[i], "appointment") == 0 && make == 1)
             {
                 make_appointment = 1;
                 cancel_appointment = 0;
+                Q_details = 1;
                 strcpy(reply, "OK. \n");
             }
 
@@ -193,6 +196,10 @@ int main()
                         one_name = 1;
                 }
 
+                if(strcmp(current_appointment.department, "") != 0 && strcmp(current_appointment.doctor, "") != 0 &&
+                (strcmp(words[i], "price") == 0 || strcmp(words[i], "cost") == 0))
+                    strcpy(reply, show_price(current_appointment.doctor));
+
                 if(Q_doc_confirmation == 1)
                 {
                     if(strcmp(words[i], "yes") == 0)
@@ -217,31 +224,42 @@ int main()
                                 strcpy(current_appointment.doctor, temp_doc_name);
                                 strcpy(current_appointment.department, temp_dep);
                                 Q_doc_confirmation = 0;
+                                strcpy(reply, "OK. \n");
                             }
                             if(wrong_dep == 1)
+                            {
                                 sprintf(reply, "Dr. %s does not work for the %s department!\n", temp_doc_name, current_appointment.department);
+                                strcpy(temp_doc_name, "");
+                                strcpy(temp_dep, "");
+                                Q_doc_confirmation = 0;
+                            }
                         }
                     else if(strcmp(words[i], "no") == 0)
+                    {
                         strcpy(reply, "Oh, OK. \n");
+                        Q_doc_confirmation = 0;
+                    }
                 }
             }
 
-            if(Q_which_doctor == 1)
+            if(Q_which_doctor == 1 && Q_doc_confirmation == 0)
             {
                 if(strcmp(words[i], "yes") == 0)
                 {
-                    strcpy(reply, "OK, which one?\n");
-                    if(strcmp(current_appointment.doctor, "") != 0)
-                    {
-                        strcpy(reply, "OK. \n");
-                        Q_which_doctor == 0;
-                    }
+                    yes = 1;
                 }
                 else if(strcmp(words[i], "no") == 0 || strcmp(words[i], "not") == 0)
                 {
                     strcpy(reply, list_doctors_in_dep(current_appointment.department));
-                    Q_which_doctor == 0;
+                    // Q_which_doctor = 0;
                 }
+                if(yes == 1)
+                    if(strcmp(current_appointment.doctor, "") != 0)
+                        strcpy(reply, "OK. \n");
+                    else if(strcmp(current_appointment.doctor, "") == 0 && strcmp(temp_doc_name, "") == 0)
+                        strcpy(reply, "OK, which one?\n");
+                if(i == length_processed - 1)
+                    Q_which_doctor = 0;
             }
 
             if(Q_correct_info == 1)
@@ -260,9 +278,20 @@ int main()
                     strcpy(current_appointment.date, "");
                     strcpy(current_appointment.weekday, "");
                     strcpy(current_appointment.time, "");
-                    strcpy(reply, ask_for_other_questions());
-                    Q_anything_else = 1;
+                    strcpy(temp_dep, "");
+                    strcpy(temp_doc_name, "");
+                    strcpy(temp_date, "");
+                    strcpy(temp_time, "");
+                    strcpy(docs_in_dep[0], "");
+                    strcpy(docs_in_dep[1], "");
+                    strcpy(docs_in_dep[2], "");
+                    Q_details = 0;
+                    Q_doc_confirmation = 0;
+                    Q_which_doctor = 0;
                     Q_correct_info = 0;
+                    Q_anything_else = 1;
+                    Q_cancel_details = 0;
+                    strcpy(reply, ask_for_other_questions());
                 }
                 else if(strcmp(words[i], "no") == 0 || strcmp(words[i], "not") == 0)
                 {
@@ -278,30 +307,47 @@ int main()
                     strcpy(current_appointment.name, "");
                 if(strcmp(words[i], "email") == 0)
                     strcpy(current_appointment.email, "");
-                if(strcmp(words[i], "telephone") == 0)
+                if(strcmp(words[i], "telephone") == 0 || strcmp(words[i], "tel") == 0 || strcmp(words[i], "phone") == 0)
                     strcpy(current_appointment.tel, "");
                 if(strcmp(words[i], "age") == 0)
                     strcpy(current_appointment.age, "");
+                if(strcmp(words[i], "department") == 0)
+                {
+                    strcpy(current_appointment.department, "");
+                    strcpy(docs_in_dep[0], "");
+                    strcpy(docs_in_dep[1], "");
+                    strcpy(docs_in_dep[2], "");
+                    strcpy(current_appointment.doctor, "");
+                    strcpy(current_appointment.date, "");
+                    strcpy(current_appointment.weekday, "");
+                    strcpy(current_appointment.time, "");
+                    strcpy(temp_dep, "");
+                    strcpy(temp_doc_name, "");
+                    strcpy(temp_date, "");
+                    strcpy(temp_time, "");
+                    Q_doc_confirmation = 0;
+                    Q_which_doctor = 0;
+                }
                 if(strcmp(words[i], "doctor") == 0)
                 {
                     strcpy(current_appointment.doctor, "");
                     strcpy(current_appointment.date, "");
                     strcpy(current_appointment.weekday, "");
                     strcpy(current_appointment.time, "");
-                }
-                if(strcmp(words[i], "department") == 0)
-                {
-                    strcpy(current_appointment.department, "");
-                    strcpy(current_appointment.doctor, "");
-                    strcpy(current_appointment.date, "");
-                    strcpy(current_appointment.weekday, "");
-                    strcpy(current_appointment.time, "");
+                    strcpy(temp_dep, "");
+                    strcpy(temp_doc_name, "");
+                    strcpy(temp_date, "");
+                    strcpy(temp_time, "");
+                    Q_doc_confirmation = 0;
+                    Q_which_doctor = 0;
                 }
                 if(strcmp(words[i], "date") == 0)
                 {
                     strcpy(current_appointment.date, "");
                     strcpy(current_appointment.weekday, "");
                     strcpy(current_appointment.time, "");
+                    strcpy(temp_date, "");
+                    strcpy(temp_time, "");
                 }
                 if(strcmp(words[i], "time") == 0)
                 {
@@ -309,13 +355,17 @@ int main()
                     strcpy(current_appointment.date, "");
                     strcpy(current_appointment.weekday, "");
                     strcpy(current_appointment.time, "");
+                    strcpy(temp_time, "");
                 }
                 if(strcmp(current_appointment.department, "") == 0 || strcmp(current_appointment.doctor, "") == 0 || 
                 strcmp(current_appointment.date, "") == 0 || strcmp(current_appointment.time, "") == 0 || 
                 strcmp(current_appointment.name, "") == 0 || strcmp(current_appointment.email, "") == 0 || 
                 strcmp(current_appointment.tel, "") == 0 || strcmp(current_appointment.age, "") == 0 || 
                 strcmp(current_appointment.weekday, "") == 0)
+                {
                     strcpy(reply, "");
+                    incorrect_info = 0;
+                }
             }
 
             if(Q_anything_else == 1)
@@ -327,11 +377,11 @@ int main()
                 }
         }
         //==========================================================================================================
-
-        if(one_name == 1 && Q_doc_confirmation == 0 && strcmp(temp_doc_name, "") == 0)
+        if(one_name == 1 && Q_doc_confirmation == 0 && strcmp(current_appointment.doctor, "") == 0)
         {
             sprintf(reply, "Are you referring to dr. %s?\n", unconfirmed_doc_name);
-            Q_doc_confirmation = 1;
+            if(Q_which_doctor == 0)
+                Q_doc_confirmation = 1;
         }
 
         //search for date and time
@@ -354,7 +404,7 @@ int main()
             }
         }
     
-        // ask for all details of an appointment
+        // Make appointment
         if(make_appointment == 1 && (strcmp(reply, "") == 0 || strcmp(reply, "OK. \n") == 0))
         {
             if(strcmp(reply, "OK. \n") == 0)
@@ -366,9 +416,8 @@ int main()
             }
 
             if(strcmp(current_appointment.department, "") != 0 && strcmp(current_appointment.doctor, "") == 0 && 
-            Q_which_doctor == 0)
+            Q_which_doctor == 0 && Q_doc_confirmation == 0)
             {
-                // printf("%i", Q_which_doctor);
                 strcat(reply, "Do you know which doctor you would like to see?\n");
                 Q_which_doctor = 1;
             }
@@ -398,8 +447,11 @@ int main()
             if(strcmp(current_appointment.department, "") != 0 && strcmp(current_appointment.doctor, "") != 0 && 
             strcmp(current_appointment.date, "") != 0 && strcmp(current_appointment.time, "") != 0)
             {
-                if(incorrect_info != 1)
+                if(Q_details == 1)
+                {
                     respond("Alright, I will need you to provide some details so that I can finalise the appointment.\n");
+                    Q_details = 0;
+                }
                 if(strcmp(current_appointment.name, "") == 0)
                 {
                     respond("What is your name?\n");
@@ -415,10 +467,11 @@ int main()
                     while (1)
                     {
                         em_k = 0;
-                        scanf("%s", input);
+                        scanf(" %[^\n]%*c", input);
                         char* logged = (char*) malloc(210 * sizeof(char));
                         strcpy(logged, "Patient: ");
                         strcat(logged, input);
+                        strcat(logged, "\n\n");
                         chatlog(logged);
                         free(logged);
                         if(input[strlen(input) - 1] == '.')
@@ -441,10 +494,11 @@ int main()
                     while (1)
                     {
                         tel_k = 0;
-                        scanf("%s", input);
+                        scanf(" %[^\n]%*c", input);
                         char* logged = (char*) malloc(210 * sizeof(char));
                         strcpy(logged, "Patient: ");
                         strcat(logged, input);
+                        strcat(logged, "\n\n");
                         chatlog(logged);
                         free(logged);
                         if(input[strlen(input) - 1] == '.')
@@ -467,10 +521,11 @@ int main()
                     while (1)
                     {
                         age_k = 0;
-                        scanf("%s", input);
+                        scanf(" %[^\n]%*c", input);
                         char* logged = (char*) malloc(210 * sizeof(char));
                         strcpy(logged, "Patient: ");
                         strcat(logged, input);
+                        strcat(logged, "\n\n");
                         chatlog(logged);
                         free(logged);
                         if(input[strlen(input) - 1] == '.')
@@ -497,7 +552,7 @@ int main()
             strcmp(current_appointment.date, "") != 0 && strcmp(current_appointment.time, "") != 0 && 
             strcmp(current_appointment.name, "") != 0 && strcmp(current_appointment.email, "") != 0 && 
             strcmp(current_appointment.tel, "") != 0 && strcmp(current_appointment.age, "") != 0 && 
-            strcmp(current_appointment.weekday, "") != 0)
+            strcmp(current_appointment.weekday, "") != 0 && Q_correct_info == 0)
             {
                 sprintf(reply, "Here is a recap of the details you gave me:\nName: %s\nEmail: %s\nTel: %s\nAge: %s\nDepartment: %s\nDoctor: %s\nDate: %s\nWeekday: %s\nTime: %s\nIs the information correct? (If not, tell me what to change!)\n",
                 current_appointment.name, current_appointment.email, current_appointment.tel, current_appointment.age,
@@ -507,7 +562,8 @@ int main()
             }
         }
 
-        if(cancel_appointment == 1)
+        // Cancel appointment
+        if(cancel_appointment == 1 && (strcmp(reply, "") == 0 || strcmp(reply, "OK. \n") == 0))
         {
             if(Q_cancel_details == 0)
             {
@@ -529,10 +585,11 @@ int main()
                 while (1)
                 {
                     tel_k = 0;
-                    scanf("%s", input);
+                    scanf(" %[^\n]%*c", input);
                     char* logged = (char*) malloc(210 * sizeof(char));
                     strcpy(logged, "Patient: ");
                     strcat(logged, input);
+                    strcat(logged, "\n\n");
                     chatlog(logged);
                     free(logged);
                     if(input[strlen(input) - 1] == '.')
@@ -603,10 +660,14 @@ int main()
                     strcpy(temp_time, "");
                     respond("Done!\n");
                     load_appointments();
-                    Q_cancel_details = 0;
                     cancel_appointment = 0;
                     strcpy(reply, ask_for_other_questions());
+                    Q_details = 0;
+                    Q_doc_confirmation = 0;
+                    Q_which_doctor = 0;
+                    Q_correct_info = 0;
                     Q_anything_else = 1;
+                    Q_cancel_details = 0;
                 }
                 else
                 {
@@ -621,10 +682,14 @@ int main()
                     strcpy(temp_date, "");
                     strcpy(temp_time, "");
                     cancel_appointment = 0;
-                    Q_cancel_details = 0;
                     respond("There is no appointment made with the details you provided!\n");
                     strcpy(reply, ask_for_other_questions());
+                    Q_details = 0;
+                    Q_doc_confirmation = 0;
+                    Q_which_doctor = 0;
+                    Q_correct_info = 0;
                     Q_anything_else = 1;
+                    Q_cancel_details = 0;
                 }
             }
         }
@@ -641,6 +706,8 @@ int main()
         if(quit == 1)
             exit(0);
         strcpy(reply, "");
+        strcpy(input, "");
+        strcpy(processed_input, "");
     }
 
     return 0;

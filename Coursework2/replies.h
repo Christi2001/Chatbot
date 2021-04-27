@@ -28,6 +28,14 @@ char* ask_for_other_questions();
 char* say_didnt_understand();
 
 /**
+ * Shows the price of a consultation with a specific doctor.
+ * 
+ * @param doctor Doctor whose consultation price will be showed
+ * @return String with the reply
+ */
+char* show_price(char* doctor);
+
+/**
  * Shows the usual schedule of a doctor on a particular weekday.
  * 
  * @param doctor Doctor whose schedule will be showed
