@@ -8,7 +8,6 @@
 
 char* process_input(char* string)
 {
-    // Save conversation in a txt file
     char* logged = (char*) malloc(210 * sizeof(char));
     strcpy(logged, "Patient: ");
     strcat(logged, string);
@@ -476,7 +475,7 @@ int search_for_time_phrase(char* string)
         ptr1 = strstr(lower_string, time);
         if(ptr1 != NULL)
         {
-            // The loop goes from 99 and if it finds invalid hours it returns 1.
+            // The loop goes from 100 and if it finds invalid hours it returns 1.
             // Without this is would detect "at 25 o'clock" as valid
             // due to "at 2" being valid (for example).
             if(i > 24)

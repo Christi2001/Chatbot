@@ -8,13 +8,6 @@
  */
 char* say_introduction();
 
-// /**
-//  * Print a greeting with the user's name.
-//  * 
-//  * @param name The user's name
-//  */
-// void say_hello(char* name);
-
 /**
  * Ask the user if they have other questions.
  */

@@ -9,7 +9,6 @@
 
 int main()
 {
-    // Appointment current_appointment;
     current_appointment.app_ID = (char*) malloc(5*sizeof(char));
     current_appointment.name = (char*) malloc(40*sizeof(char));
     current_appointment.email = (char*) malloc(40*sizeof(char));
@@ -51,6 +50,10 @@ int main()
     int yes;
     int incorrect_info = 0;
     // switches for questions asked by the bot
+    int Q_dep = 0;
+    int Q_doc = 0;
+    int Q_date = 0;
+    int Q_time = 0;
     int Q_details = 0;
     int Q_doc_confirmation = 0;
     int Q_which_doctor = 0;
@@ -105,7 +108,7 @@ int main()
         if(search_for_question(input) == 0)
             question = 1;
 
-        // =============================================================================================================
+        // START OF FOR LOOP
         for (int i = 0; i < length_processed; i++)
         {
             if(strcmp(words[i], "quit") == 0 || strcmp(words[i], "exit") == 0 || strcmp(words[i], "bye") == 0 || strcmp(words[i], "goodbye") == 0)
@@ -247,11 +250,12 @@ int main()
                 if(strcmp(words[i], "yes") == 0)
                 {
                     yes = 1;
+                    Q_doc = 0;
                 }
                 else if(strcmp(words[i], "no") == 0 || strcmp(words[i], "not") == 0)
                 {
                     strcpy(reply, list_doctors_in_dep(current_appointment.department));
-                    // Q_which_doctor = 0;
+                    Q_doc = 0;
                 }
                 if(yes == 1)
                     if(strcmp(current_appointment.doctor, "") != 0)
@@ -376,7 +380,8 @@ int main()
                     break;
                 }
         }
-        //==========================================================================================================
+        // END OF FOR LOOP
+
         if(one_name == 1 && Q_doc_confirmation == 0 && strcmp(current_appointment.doctor, "") == 0)
         {
             sprintf(reply, "Are you referring to dr. %s?\n", unconfirmed_doc_name);
@@ -403,7 +408,18 @@ int main()
                     search_for_time(words[i]);
             }
         }
-    
+        if(strcmp(current_appointment.department, "") != 0)
+            Q_dep = 0;
+        if(strcmp(current_appointment.doctor, "") != 0)
+            Q_doc = 0;
+        if(strcmp(temp_date, "") != 0)
+            Q_date = 0;
+        if(strcmp(temp_time, "") != 0)
+            Q_time = 0;
+
+        if(Q_dep > 0 || Q_doc > 0 || Q_date > 0 || Q_time > 0)
+            respond(say_didnt_understand());
+
         // Make appointment
         if(make_appointment == 1 && (strcmp(reply, "") == 0 || strcmp(reply, "OK. \n") == 0))
         {
@@ -413,6 +429,7 @@ int main()
             if(strcmp(current_appointment.department, "") == 0)
             {
                 strcat(reply, "Which department would you like to go to?\n");
+                Q_dep++;
             }
 
             if(strcmp(current_appointment.department, "") != 0 && strcmp(current_appointment.doctor, "") == 0 && 
@@ -420,16 +437,22 @@ int main()
             {
                 strcat(reply, "Do you know which doctor you would like to see?\n");
                 Q_which_doctor = 1;
+                Q_doc++;
             }
 
             if(strcmp(current_appointment.department, "") != 0 && strcmp(current_appointment.doctor, "") != 0 && 
             strcmp(temp_date, "") == 0 && strcmp(temp_time, "") == 0)
+            {
                 strcat(reply, "When would you like to come?\n");
+                Q_date++;
+            }
 
             if(strcmp(current_appointment.department, "") != 0 && strcmp(current_appointment.doctor, "") != 0 && 
             strcmp(temp_date, "") != 0 && strcmp(temp_time, "") == 0)
+            {
                 strcat(reply, show_modified_schedule_on_date(current_appointment.doctor, temp_date));
-
+                Q_time++;
+            }
             if(strcmp(current_appointment.department, "") != 0 && strcmp(current_appointment.doctor, "") != 0 && 
             strcmp(temp_date, "") != 0 && strcmp(temp_time, "") != 0)
             {

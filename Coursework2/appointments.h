@@ -41,21 +41,14 @@ typedef struct{
     char* time;
 }Appointment;
 
-// Array of all (10) department structs
 Department department[TOTAL_NUM_DEP];
 
-// Array of all appointments made at the clinic
 Appointment appointment[MAX_NUM_APP];
-
-// Struct used for handling schedule with appointments
-Doctor current_schedule_on_week_X;
 
 int Current_num_appointments;
 
 Schedule normal_schedule;
 Schedule modified_schedule;
-Schedule dep_modified_schedule[3];
-char dep_doctors[3][30];
 
 char Weekday[7][4];
 char hours[24][6];

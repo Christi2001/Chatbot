@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "replies.h": "c"
+        "replies.h": "c",
+        "ctype.h": "c"
     }
 }

@@ -18,11 +18,6 @@ char* say_introduction()
     return string;
 }
 
-// void say_hello_name(char* name)
-// {
-//     // printf("");
-// }
-
 char* ask_for_other_questions()
 {
     char* string = (char*) malloc(100*sizeof(char));
