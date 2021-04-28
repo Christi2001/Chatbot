@@ -330,3 +330,246 @@ Chatbot: The price of a consultation with dr. Asma Farrell is 50 GBP.
 Patient: l
 
 Chatbot: When would you like to come?
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+Patient: Hello, I want to make an appointment.
+
+Chatbot: OK. Which department would you like to go to?
+Patient: What departments are there in this clinic?
+
+Chatbot: I am unsure of what you meant by that...
+Chatbot: The departments in our clinic are:
+Orthopedy,
+Oncology,
+Gynecology,
+Dermatology,
+Ophthalmology,
+Otolaryngology,
+Neurology,
+Pulmonology,
+Cardiology,
+and Endocrinology.
+Patient: Neruology please.
+
+Chatbot: I'm sorry, I didn't understand that!
+Chatbot: Which department would you like to go to?
+Patient: Neurology please.
+
+Chatbot: Do you know which doctor you would like to see?
+Patient: No
+
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?
+Patient: Dr. Hampton.
+
+Chatbot: Are you referring to dr. Lacy Hampton?
+Patient: Yes.
+
+Chatbot: OK. When would you like to come?
+Patient: In 4 days.
+
+Chatbot: Dr. Lacy Hampton is not available on 02.05.2021, but is available on 03.05.2021 at the following hours:
+08:00	08:30	09:00	09:30	10:00	10:30	11:00	11:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+Patient: 8:00
+
+Chatbot: Alright, I will need you to provide some details so that I can finalise the appointment.
+Chatbot: What is your name?
+Patient: Christian Pustianu
+
+Chatbot: OK, what is your email address?
+Patient: pustianuchristian@yahoo.com
+
+Chatbot: Your telephone number please.
+Patient: 0735810294
+
+Chatbot: How old are you?
+Patient: 19
+
+Chatbot: Here is a recap of the details you gave me:
+Name: Christian Pustianu
+Email: pustianuchristian@yahoo.com
+Tel: 0735810294
+Age: 19
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 03.05.2021
+Weekday: Mon
+Time: 08:00
+Is the information correct? (If not, tell me what to change!)
+Patient: No, the age is wrong
+
+Chatbot: How old are you?
+Patient: 20
+
+Chatbot: Here is a recap of the details you gave me:
+Name: Christian Pustianu
+Email: pustianuchristian@yahoo.com
+Tel: 0735810294
+Age: 20
+Department: Neurology
+Doctor: Lacy Hampton
+Date: 03.05.2021
+Weekday: Mon
+Time: 08:00
+Is the information correct? (If not, tell me what to change!)
+Patient: No, the department is wrong
+
+Chatbot: Which department would you like to go to?
+Patient: CArdiology.
+
+Chatbot: Do you know which doctor you would like to see?
+Patient: Yes, I do.
+
+Chatbot: OK, which one?
+Patient: Mohamed Webster.
+
+Chatbot: Are you referring to dr. Mohamed Webster?
+Patient: yes
+
+Chatbot: Dr. Mohamed Webster does not work for the Cardiology department!
+Patient: Then which doctors work at this department?
+
+Chatbot: The doctors working at the Cardiology department are: dr. Finnian Gillespie, dr. Simeon Middleton and dr. Caio Orozco.
+Which one would you like to make an appointment for?
+Patient: Dr. Gillespie please.
+
+Chatbot: Are you referring to dr. Finnian Gillespie?
+Patient: yes.
+
+Chatbot: OK. When would you like to come?
+Patient: tomorrow
+
+Chatbot: Dr. Finnian Gillespie is not available on 29.04.2021, but is available on 30.04.2021 at the following hours:
+10:00	10:30	11:00	11:30	14:00	14:30	15:00	15:30	16:00	16:30	17:00	17:30	
+What time do you prefer?
+Patient: at 19
+
+Chatbot: That is not a valid hour! Try again!
+Patient: 19:00
+
+Chatbot: That is not a valid hour! Try again!
+Patient: 10:00
+
+Chatbot: Here is a recap of the details you gave me:
+Name: Christian Pustianu
+Email: pustianuchristian@yahoo.com
+Tel: 0735810294
+Age: 20
+Department: Cardiology
+Doctor: Finnian Gillespie
+Date: 30.04.2021
+Weekday: Fri
+Time: 10:00
+Is the information correct? (If not, tell me what to change!)
+Patient: yes.
+
+Chatbot: Do you need help with anything else?
+Patient: Yes, I want to cancel an appointment.
+
+Chatbot: Ok, I will need you to provide some details so that I can find your appointment.
+Chatbot: What is your name?
+Patient: Christian Pustianu
+
+Chatbot: What phone number did you use?
+Patient: 0735851024.
+
+Chatbot: Which doctor did you make the appointment for?
+Patient: Mohamed Webster
+
+Chatbot: What date is it on?
+Patient: 6.4.2021
+
+Chatbot: And for what time?
+Patient: half past 11
+
+Chatbot: Done!
+Chatbot: Can I help you with anything else?
+Patient: No
+
+Chatbot: Alright then, it was nice to meet you!
+Have a nice day!
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+Patient: I would like to make an appointment.
+
+Chatbot: OK. Which department would you like to go to?
+Patient: sfljsdnfl
+
+Chatbot: I am unsure of what you meant by that...
+Chatbot: Which department would you like to go to?
+Patient: Pulmonology
+
+Chatbot: Do you know which doctor you would like to see?
+Patient: No
+
+Chatbot: The doctors working at the Pulmonology department are: dr. Maureen Novak, dr. Madina Carter and dr. Julie Rubio.
+Which one would you like to make an appointment for?
+Patient: Dr. Madina Carter.
+
+Chatbot: When would you like to come?
+Patient: what is the price of the appointment?
+
+Chatbot: Hmm, I'm not sure...
+Chatbot: The price of a consultation with dr. Madina Carter is 45 GBP.
+Patient: Bye
+
+Chatbot: I am unsure of what you meant by that...
+Chatbot: It was nice to meet you!
+Have a nice day!
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+Patient: I want to make an appointment with dr. Hampton
+
+Chatbot: Are you referring to dr. Lacy Hampton?
+Patient: yes.
+
+Chatbot: OK. When would you like to come?
+Patient: What is the price of the consultation?
+
+Chatbot: The price of a consultation with dr. Lacy Hampton is 50 GBP.
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+Patient: I want to make an appointment at neurology
+
+Chatbot: OK. Do you know which doctor you would like to see?
+Patient: yes
+
+Chatbot: OK, which one?
+Patient: Dr. Hampton
+
+Chatbot: Are you referring to dr. Lacy Hampton?
+Patient: yes
+
+Chatbot: OK. When would you like to come?
+Patient: quit
+
+Chatbot: It was nice to meet you!
+Have a nice day!
+***********************************************************************************************
+**                                A    L    B    E    R    T                                 **
+***********************************************************************************************
+Chatbot: Hello! My name is Albert and I am your virtual assistant at this clinic.
+How may I help you?
+Patient: I want to make an appointment
+
+Chatbot: OK. Which department would you like to go to?
+Patient: neurology
+
+Chatbot: Do you know which doctor you would like to see?
+Patient: no
+
+Chatbot: The doctors working at the Neurology department are: dr. Lacy Hampton, dr. Asma Farrell and dr. Sinead Hines.
+Which one would you like to make an appointment for?

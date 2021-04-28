@@ -248,15 +248,11 @@ int main()
             if(Q_which_doctor == 1 && Q_doc_confirmation == 0)
             {
                 if(strcmp(words[i], "yes") == 0)
-                {
                     yes = 1;
-                    Q_doc = 0;
-                }
+
                 else if(strcmp(words[i], "no") == 0 || strcmp(words[i], "not") == 0)
-                {
                     strcpy(reply, list_doctors_in_dep(current_appointment.department));
-                    Q_doc = 0;
-                }
+
                 if(yes == 1)
                     if(strcmp(current_appointment.doctor, "") != 0)
                         strcpy(reply, "OK. \n");
@@ -417,7 +413,7 @@ int main()
         if(strcmp(temp_time, "") != 0)
             Q_time = 0;
 
-        if(Q_dep > 0 || Q_doc > 0 || Q_date > 0 || Q_time > 0)
+        if((Q_dep > 0 || Q_doc > 0 || Q_date > 0 || Q_time > 0) && strcmp(reply, "") == 0)
             respond(say_didnt_understand());
 
         // Make appointment

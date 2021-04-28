@@ -21,17 +21,6 @@ Wed
 16:00
 
 1003
-Christian Pustianu
-pustianuchristian@yahoo.com
-0735851024
-19
-Dermatology
-Mohamed Webster
-06.04.2021
-Tue
-11:30
-
-1004
 Leonardo DiCaprio
 leodicaprio@outlook.com
 0713245928
@@ -42,7 +31,7 @@ Mohamed Webster
 Tue
 10:00
 
-1005
+1004
 Bruce Lee
 brucelee@gmail.com
 0738609484
@@ -53,7 +42,7 @@ Mohamed Webster
 Thu
 14:30
 
-1006
+1005
 Jackie Chan
 jackiechan@yahoo.com
 07234293424
@@ -63,4 +52,15 @@ Shiv Boyce
 16.04.2021
 Fri
 09:30
+
+1006
+Christian Pustianu
+pustianuchristian@yahoo.com
+0735810294
+20
+Cardiology
+Finnian Gillespie
+30.04.2021
+Fri
+10:00
 
