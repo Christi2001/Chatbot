@@ -1,4 +1,4 @@
-# Chatbot for Medical Practices
+# Chatbot for Medical Practice
 ### by Christian Pustianu
 
 Hello!
