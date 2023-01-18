@@ -1,5 +1,5 @@
 # Chatbot for Medical Practice
-### by Christian Pustianu
+### by Christian Constantin Pustianu
 
 Hello!
 You can talk to the chatbot using natural language and it will understand 
